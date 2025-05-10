@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/types.h>
-#include <sys/ipc.h>
-#include <sys/shm.h>
+#include <sys/mman.h>
+#include <sys/stat.h>
+#include <fcntl.h>
 #include <signal.h>
 #include <time.h>
 
@@ -44,17 +45,20 @@ int main(){
     pid_t pid;
     int processedCount = 0;
 
-    key_t key = ftok("shmfile", 65);
-
-    int shmid = shmget(key, SHM_SIZE, 0666|IPC_CREAT);
-    if(shmid == -1){
-        perror("shmget");
+    int shm_fd = shm_open("/shm_fd", O_CREAT | O_RDWR, 0666);
+    if(shm_fd == -1){
+        perror("shm_open");
         exit(1);
     }
 
-    int *shm_ptr = (int*)shmat(shmid, NULL, 0);
-    if(shm_ptr == (int*)(-1)){
-        perror("shmat");
+    if(ftruncate(shm_fd, 1024) == -1){
+        perror("ftruncate");
+        exit(1);
+    }
+
+    int *shm_ptr = (int*)mmap(NULL, SHM_SIZE, PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
+    if(shm_ptr == MAP_FAILED){
+        perror("mmap");
         exit(1);
     }
 
@@ -69,7 +73,8 @@ int main(){
             findMinMax(shm_ptr);
             sleep(1);
         }
-        shmdt(shm_ptr);
+        munmap(shm_ptr, 1024);
+        close(shm_fd);
         exit(0);
     } else{
         printf("Parent process\n");
@@ -86,8 +91,9 @@ int main(){
             processedCount++;
         }
         printf("Data processed: %d", processedCount);
-        shmdt(shm_ptr);
-        shmctl(shmid, 0, NULL);
+        munmap(shm_ptr, 1024);
+        close(shm_fd);
+        shm_unlink("/shm_fd");
     }
 
     return 0;
