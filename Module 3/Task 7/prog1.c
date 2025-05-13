@@ -36,9 +36,12 @@ int main(){
             break;
         }
 
-        if (prio == 255) {
-            printf("User2 ended chat.\n");
-            break;
+        if(strcmp(buffer, "/exit") == 0){
+            prio = 255;
+            if (prio == 255) {
+                printf("User2 ended chat.\n");
+                break;
+            }
         }
 
         printf("User2: %s", buffer);
