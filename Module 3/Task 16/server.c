@@ -11,7 +11,6 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-
 void calculate(int);
 
 double sum(double a, double b) {
@@ -42,31 +41,59 @@ void error(const char *msg){
     exit(1);
 }
 
+int connection(int sockfd, struct sockaddr_in servaddr){
+    if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+        perror("sockfd");
+        exit(EXIT_FAILURE);
+    }
+    memset(&servaddr, 0, sizeof(servaddr));
+    server_addr.sin_port = htons(1510);
+    server_addr.sin_family = AF_INET;
+    server_addr.sin_addr.s_addr = INADDR_ANY;
+    if (bind(sockfd, (struct sockaddr *)&servaddr, sizeof(servaddr)) < 0) {
+        perror("bind");
+        close(sockfd);
+        exit(EXIT_FAILURE);
+    }
+    if (listen(sockfd, 5) < 0) {
+        perror("listen");
+        close(sockfd);
+        exit(EXIT_FAILURE);
+    }
+}
+
+void recv_file(int newsockfd) {
+    int size = 50000;
+    char path[100];
+    char *fileData = malloc(size);
+    FILE *f;
+    recv(newsockfd, path, sizeof(path), 0);
+    if ((f = fopen(path, "wb")) == NULL) {
+        perror("fopen");
+        close(newsockfd);
+        exit(EXIT_FAILURE);
+    }
+    long long fileSize = 0;
+    int sizeData;
+    for (;;) {
+        sizeData = recv(newsockfd, fileData, size, 0);
+        if (sizeData <= 0)
+            break;
+        fwrite(fileData, 1, sizeData, f);
+        fileSize += sizeData;
+        printf("\rРазмер полученного файла: %lld", fileSize);
+    }
+    printf("\n");
+    fclose(f);
+    free(fileData);
+    return;
+}
+
 int main(int argc, char *argv[]){
     int sockfd, newsockfd;
     struct sockaddr_in servaddr, cliaddr;
-    pit_t pid;
-
-    if((sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0){
-        perror("socket create");
-        exit(EXIT_FAILURE);
-    }
-
-    memset(&servaddr, 0, sizeof(servaddr));
-    servaddr.sin_family = AF_INET;
-    servaddr.sin_port = htons(atoi(argv[2]));
-    servaddr.sin_addr.s_addr = INADDR_ANY;
-
-    if(bind(sockfd, (struct sockaddr*)&servaddr, sizeof(servaddr))){
-        perror("bind failed");
-        close(sockfd);
-        exit(EXIT_FAILURE);
-    }
-    if(listen(sockfd, 5)){
-        perror("listen failed");
-        close(sockfd);
-        exit(EXIT_FAILURE);
-    }
+    pid_t pid;
+    connection(sockfd, servaddr);
     fd_set fds;
     int sel_fds;
     struct timeval delay;
@@ -98,17 +125,30 @@ int main(int argc, char *argv[]){
         }
         if(pid == 0){
             close(sockfd);
-            calculate(newsockfd);
+            int choice;
+            if (recv(newsockfd, &choice, sizeof(choice), 0) < 1) {
+                perror("read");
+                close(newsockfd);
+                exit(EXIT_FAILURE);
+            }
+            switch (choice) {
+                case 1:
+                    recv_file(newsockfd);
+                    break;
+                case 2:
+                    calculate(newsockfd);
+                    break;
+                default:
+                    break;
+            }
             close(newsockfd);
-            exit(EXIT_FAILURE);
+            exit(EXIT_SUCCESS);
         } else{
             close(newsockfd);
         }
         close(sockfd);
         exit(EXIT_FAILURE);
     }
-
-    return 0;
 }
 
 void calculate(int newsockfd) {

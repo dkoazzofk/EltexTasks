@@ -1,16 +1,31 @@
 #include <arpa/inet.h>
 #include <errno.h>
+#include <netdb.h>
 #include <netinet/in.h>
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <sys/socket.h>
+#include <sys/time.h>
 #include <sys/types.h>
 #include <unistd.h>
 
+int sockfd;
+void* recvMessage(void* arg){
+    char mess[1024];
+    while(1){
+        if(read(sockfd, mess, sizeof(mess)) < 1){
+            perror("recv");
+            close(sockfd);
+            exit(EXIT_FAILURE);
+        }
+        printf("\nServer to Client: %s\n", mess);
+    }
+    pthread_close(EXIT_SUCCESS);
+}
+
 int main(int argc, char *argv[]){
-    int sockfd;
     pthread_t tid;
     struct sockaddr_in servaddr;
 
@@ -31,7 +46,7 @@ int main(int argc, char *argv[]){
         close(sockfd);
         exit(EXIT_FAILURE);
     }
-    if(pthread_create(&tid, NULL, recv_message, NULL) < 0){
+    if(pthread_create(&tid, NULL, recvMessage, NULL) < 0){
         perror("pthread_create");
         close(sockfd);
     }
