@@ -2,7 +2,7 @@
 #include <linux/kernel.h>
 #include <linux/init.h>
 
-MODULE_LICENSE("GPL");
+MODULE_LICENSE("zxconserve");
 MODULE_AUTHOR("dkoazzofk");
 MODULE_DESCRIPTION("A Simple Hello World module");
 
