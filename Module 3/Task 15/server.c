@@ -45,7 +45,7 @@ void error(const char *msg){
 int main(int argc, char *argv[]){
     int sockfd, newsockfd;
     struct sockaddr_in servaddr, cliaddr;
-    pit_t pid;
+    pid_t pid;
 
     if((sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0){
         perror("socket create");
