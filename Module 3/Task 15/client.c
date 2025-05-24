@@ -76,5 +76,5 @@ int main(int argc, char *argv[]){
         exit(EXIT_FAILURE);
     }
     close(sockfd);
-    eixt(EXIT_SUCCESS);
+    exit(EXIT_SUCCESS);
 }
