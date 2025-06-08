@@ -1,0 +1,3 @@
+#!/bin/bash
+Зотов Дмитрий
+echo "Last updated: $(date)" | sudo tee /etc/motd

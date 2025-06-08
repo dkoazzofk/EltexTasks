@@ -1,0 +1,16 @@
+cd ~
+touch ${USER}_part3.log
+mkdir -p D1/D2/D3
+touch D1/D2/file.txt
+echo Random text >> D1/D2/file.txt
+ln -s D1/D2/file.txt D1/D2/D3/symlink_file.txt
+ln D1/D2/file.txt D1/D2/D3/hard_file.txt
+ls -l D1/D2/D3/symlink_file.txt
+ls -l D1/D2/D3/hardlink_file.txt
+mv D1/D2/file.txt D1
+rm -r D1/D2
+find / -type f -size +50M 2> /dev/null >> ${USER}_part3_gt50M.log
+find -/ type f -mtime -1
+which find
+file $(which find)
+file /boot/initrd.img*

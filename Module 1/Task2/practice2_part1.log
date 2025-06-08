@@ -1,0 +1,1140 @@
+Script started on 2025-03-19 12:23:00+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="97" LINES="27"]
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# su user1[K2
+[?2004l[?2004h]0;user2@eltex-practice2-pg1-v8: /rootuser2@eltex-practice2-pg1-v8:/root$ exit
+[?2004lexit
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# su user1
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /rootuser1@eltex-practice2-pg1-v8:/root$ cd /opt/share
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /opt/shareuser1@eltex-practice2-pg1-v8:/opt/share$ touch filesets[K[K[K[K[K[K[K[Ktestuser1
+[?2004ltouch: cannot touch 'testuser1': Permission denied
+[?2004h]0;user1@eltex-practice2-pg1-v8: /opt/shareuser1@eltex-practice2-pg1-v8:/opt/share$ touch testuser1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /optuser1@eltex-practice2-pg1-v8:/opt$ cd ..
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /user1@eltex-practice2-pg1-v8:/$ gropl[Ks user1
+[?2004lgrops: error: can't open file 'user1'
+[?2004h]0;user1@eltex-practice2-pg1-v8: /user1@eltex-practice2-pg1-v8:/$ grops user1[K[K[K[K[K[K[K[K[K[K[Kexit
+[?2004lexit
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# gropi[K[Kups user1
+[?2004luser1 : user1 users newGroup
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# groups user1[K2
+[?2004luser2 : user2 users newGroup
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# groups user2[K3
+[?2004luser3 : user3 users newGroup
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# sh[K[Kchgrp grop[K[K[K[Knw[KewGropu[Ku[K[Kup ~/opt/share
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# chmod g_s[K[K+s ~/p[t/[K[K[K[Kopt/share
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# ls -ld ~opt.[K[K[K[K/opt/share
+[?2004ldrwxr-sr-x 2 root newGroup 4096 Mar 19 11:49 [0m[01;34m/root/opt/share[0m
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# ls -ld ~/opt/share[3@chmod g+s[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[1P ~/opt/share[1P ~/opt/share7 ~/opt/share5 ~/opt/share5 ~/opt/share
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# chmod 755 ~/opt/share[3Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004ldrwxr-sr-x 2 root newGroup 4096 Mar 19 11:49 [0m[01;34m/root/opt/share[0m
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# ls -ld ~/opt/share[3@chmod 755[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ~/opt/share[1P ~/opt/share[1P ~/opt/shareg ~/opt/share_ ~/opt/share[1P ~/opt/share+ ~/opt/sharer ~/opt/sharew ~/opt/shared ~/opt/share[1P ~/opt/sharex ~/opt/share
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# chmod g+rwx ~/opt/share[5Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004ldrwxrwsr-x 2 root newGroup 4096 Mar 19 11:49 [0m[01;34m/root/opt/share[0m
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# [7mecho "umask 027" | sudo tee -a /home/user1/.bashrc[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pecho "umask 027" | sudo tee -a /home/user1/.bashr[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P
+[?2004lumask 027
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# [7msudo su - user1 -c "umask 027"[27msudo su - user1 -c "umask 027"[C[1P[1P[1P[1P[1P
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# us[K[Ksu [K user [K1
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /rootuser1@eltex-practice2-pg1-v8:/root$ cd /opt/share
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /opt/shareuser1@eltex-practice2-pg1-v8:/opt/share$ ls
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /opt/shareuser1@eltex-practice2-pg1-v8:/opt/share$ toushc[K[K[Kch user1test
+[?2004ltouch: cannot touch 'user1test': Permission denied
+[?2004h]0;user1@eltex-practice2-pg1-v8: /opt/shareuser1@eltex-practice2-pg1-v8:/opt/share$ id
+[?2004luid=1001(user1) gid=1001(user1) groups=1001(user1),100(users),1004(newGroup)
+[?2004h]0;user1@eltex-practice2-pg1-v8: /opt/shareuser1@eltex-practice2-pg1-v8:/opt/share$ учше
+[?2004lучше: command not found
+[?2004h]0;user1@eltex-practice2-pg1-v8: /opt/shareuser1@eltex-practice2-pg1-v8:/opt/share$ exit
+[?2004lexit
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# [7msudo chmod 775 /opt/share[27msudo chmod 775 /opt/share[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kus[K[Ksu user1
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /rootuser1@eltex-practice2-pg1-v8:/root$ [7msudo chmod 775 /opt/share[27msudo chmod 775 /opt/share
+[?2004l[sudo] password for user1: 
+user1 is not in the sudoers file.
+[?2004h]0;user1@eltex-practice2-pg1-v8: /rootuser1@eltex-practice2-pg1-v8:/root$ grops [K[K[Kups user1
+[?2004luser1 : user1 users newGroup
+[?2004h]0;user1@eltex-practice2-pg1-v8: /rootuser1@eltex-practice2-pg1-v8:/root$ cd r[Kroot
+[?2004lbash: cd: root: Permission denied
+[?2004h]0;user1@eltex-practice2-pg1-v8: /rootuser1@eltex-practice2-pg1-v8:/root$ chmod o+x/[K /root
+[?2004lchmod: changing permissions of '/root': Operation not permitted
+[?2004h]0;user1@eltex-practice2-pg1-v8: /rootuser1@eltex-practice2-pg1-v8:/root$ exit
+[?2004lexit
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# chmod o+x /root
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# su user[Kr1
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /rootuser1@eltex-practice2-pg1-v8:/root$ cd /root
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /rootuser1@eltex-practice2-pg1-v8:/root$ cd ./[K[K/r[K[Kopt/sja[K[Khare
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /root/opt/shareuser1@eltex-practice2-pg1-v8:/root/opt/share$ touch user1text[K[Kst
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /root/opt/shareuser1@eltex-practice2-pg1-v8:/root/opt/share$ ls
+[?2004luser1test
+[?2004h]0;user1@eltex-practice2-pg1-v8: /root/opt/shareuser1@eltex-practice2-pg1-v8:/root/opt/share$ exit
+[?2004lexit
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# su s2[K[Kuser2
+[?2004l[?2004h]0;user2@eltex-practice2-pg1-v8: /rootuser2@eltex-practice2-pg1-v8:/root$ .[Kcd opt/share
+[?2004l[?2004h]0;user2@eltex-practice2-pg1-v8: /root/opt/shareuser2@eltex-practice2-pg1-v8:/root/opt/share$ touch user2test
+[?2004l[?2004h]0;user2@eltex-practice2-pg1-v8: /root/opt/shareuser2@eltex-practice2-pg1-v8:/root/opt/share$ exit[K[K[K[Kdel[K[K[Krm user1text[K[Kst
+[?2004lrm: remove write-protected regular empty file 'user1test'? Y
+[?2004h]0;user2@eltex-practice2-pg1-v8: /root/opt/shareuser2@eltex-practice2-pg1-v8:/root/opt/share$ ls
+[?2004luser2test
+[?2004h]0;user2@eltex-practice2-pg1-v8: /root/opt/shareuser2@eltex-practice2-pg1-v8:/root/opt/share$ exit
+[?2004lexit
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# chmod +t op,[K[K[K/root/opt/share
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# su[K[Kuser1[K[K[K[K[Ksu user3
+[?2004lThis account is currently not available.
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# su -s[KS[Ks /bim=[K[Kn/bah[Ksh/[K user3
+[?2004l[?2004h]0;user3@eltex-practice2-pg1-v8: /rootuser3@eltex-practice2-pg1-v8:/root$ to[K[K/[Kcd .[K/opt/share
+[?2004l[?2004h]0;user3@eltex-practice2-pg1-v8: /opt/shareuser3@eltex-practice2-pg1-v8:/opt/share$ toush [K[K[Kuc[K[Kch user3test
+[?2004ltouch: cannot touch 'user3test': Permission denied
+[?2004h]0;user3@eltex-practice2-pg1-v8: /opt/shareuser3@eltex-practice2-pg1-v8:/opt/share$ exit
+[?2004lexit
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# ls-[K -ls[Kd /opt/share
+[?2004ldrwxr-sr-x 2 root root 4096 Mar 19 11:49 [0m[01;34m/opt/share[0m
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# ls -ld /opt/sharesu -s /bin/bash user3user3[Kchmod +t /root/opt/share[16Psu user21chmod o+x /root[7Psu user1- user1 -c "umask 027"echo "umask 027" |  tee -a /home/user1/.bashr[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Pls -ld ~/opt/share[5@chmod g+rwx[C[C[C[C[C[C[C[C[C[C[C[C[5Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C[3@chmod 755[C[C[C[C[C[C[C[C[C[C[C[C[3Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C[3@chmod g+s[C[C[C[C[C[C[C[C[C[C[C[C[5@grp newGroup[C[C[C[C[C[C[C[C[C[C[C[C[14Pgroups user323chgrp newGroup ~/opt/share[5Pmod g+s[C[C[C[C[C[C[C[C[C[C[C[C[3Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C[3@chmod 755[C[C[C[C[C[C[C[C[C[C[C[C[3Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C[5@chmod g+rwx[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# chmod g+rwx ~/opt/share[6Pls -ld /opt/share
+[?2004ldrwxr-sr-x 2 root root 4096 Mar 19 11:49 [0m[01;34m/opt/share[0m
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# ls -ld /opt/sharechmod g+rwx ~/opt/share[6Pls -ld /opt/sharesu -s /bin/bash user3user3[Kchmod +t /root/opt/share[16Psu user21chmod o+x /root[7Psu user1- user1 -c "umask 027"echo "umask 027" |  tee -a /home/user1/.bashr[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Pls -ld ~/opt/share[5@chmod g+rwx[C[C[C[C[C[C[C[C[C[C[C[C[5Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C[3@chmod 755[C[C[C[C[C[C[C[C[C[C[C[C[3Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C[5@chmod g+rwx[C[C[C[C[C[C[C[C[C[C[C[C[5Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C[3@chmod 755[C[C[C[C[C[C[C[C[C[C[C[C[3Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C[3@chmod g+s[C[C[C[C[C[C[C[C[C[C[C[C[5@grp newGroup[C[C[C[C[C[C[C[C[C[C[C[C[14Pgroups user323chgrp newGroup ~/opt/share[14Pgroups user323chgrp newGroup ~/opt/share[14Pgroups user321[4Psu[C[C[C[C[C[C2[4Pexitls -ld /share[K[Kcd /optls -ld /opt/share[9Psu user1[4@groups[C[C[C[C[C[C[16@usermod -a -G newGroup[C[C[C[C[C[C[15Padduser[C[C[C[C[C[C[15@usermod -a -G newGroup[C[C[C[C[C[C[15Padduser[C[C[C[C[C[Cdel[C[C[C[C[C[C[C[C[C[C[5Psu[C[C[C[C[C[Cumask -S u=rwx,g=rwx,o=[15Psu user1umask -S u=rwx,g=rwx,o=[15Psu user1umask -S u=rwx,g=rwx,o=[15Psu user121echo "umask 027" | sudo tee -a /home/user1/.bashrc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pchmod 755 /opt/shareg+s[C[C[C[C[C[C[C[C[C[C[Cd ..[Kls -ld share[1P share[3Pcd ./optls -l shareopt/share[K/opt/share[KnewGroupchown :newGroup opt/share.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# chown :newGroup opt/share[8Pls -ld /opt/share
+[?2004ldrwxr-sr-x 2 root root 4096 Mar 19 11:49 [0m[01;34m/opt/share[0m
+[?2004h]0;root@eltex-practice2-pg1-v8: ~root@eltex-practice2-pg1-v8:~# cd /opt
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /optroot@eltex-practice2-pg1-v8:/opt# cd /optls -ld /opt/share[K[K[K[K[K[K[K[K[Kshare
+[?2004lls: cannot access '/share': No such file or directory
+[?2004h]0;root@eltex-practice2-pg1-v8: /optroot@eltex-practice2-pg1-v8:/opt# ls -ld /share[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[?2004l[0m[01;34mshare[0m
+[?2004h]0;root@eltex-practice2-pg1-v8: /optroot@eltex-practice2-pg1-v8:/opt# \[Kls -ld /share[1Pshare
+[?2004ldrwxr-sr-x 2 root root 4096 Mar 19 11:49 [0m[01;34mshare[0m
+[?2004h]0;root@eltex-practice2-pg1-v8: /optroot@eltex-practice2-pg1-v8:/opt# cha[K[K[Kchng[K[Kang[K[K[K[K[Kls -ld share[K -ld /share[6Pcd /optls -ld /opt/sharechown :newGroup opt/share[8Pls -ld /opt/sharechmod g+rwx ~/opt/share[6Pls -ld /opt/sharesu -s /bin/bash user3user3[Kchmod +t /root/opt/share[16Psu user21chmod o+x /root[7Psu user1chmod o+x /root[7Psu user12chmod +t /root/opt/share[16Psu user3-s /bin/bash user3[4Pls -ld /opt/sharechmod g+rwx ~/opt/share[6Pls -ld /opt/sharechown :newGroup opt/share[8Pls -ld /opt/share[10Pcd /optls -ld /share[K -ld share[Kchgrp newGroup /opt./[K[K/share
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /optroot@eltex-practice2-pg1-v8:/opt# chgrp newGroup /opt/share[13Pls -ld share[K[K[K[K[K/opt/share[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kchmod r[Kg-[K+rwx /opt/share
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /optroot@eltex-practice2-pg1-v8:/opt# chmod g+rwx /opt/share[3@grp newGroup[C[C[C[C[C[C[C[C[C[C[C[13Pls -ld share[K[K[K[K[K/opt/share
+[?2004ldrwxrwsr-x 2 root newGroup 4096 Mar 19 11:49 [0m[01;34m/opt/share[0m
+[?2004h]0;root@eltex-practice2-pg1-v8: /optroot@eltex-practice2-pg1-v8:/opt# su3[K[K[Kchmod +е[Kt /opt/chare[K[K[K[K[Kshate[K[Kre
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /optroot@eltex-practice2-pg1-v8:/opt# su[K[Ksu us[K[K-s /bim[Kn/bash user3
+[?2004l[?2004h]0;user3@eltex-practice2-pg1-v8: /optuser3@eltex-practice2-pg1-v8:/opt$ cd /share
+[?2004lbash: cd: /share: No such file or directory
+[?2004h]0;user3@eltex-practice2-pg1-v8: /optuser3@eltex-practice2-pg1-v8:/opt$ cd /share[1Pshare
+[?2004l[?2004h]0;user3@eltex-practice2-pg1-v8: /opt/shareuser3@eltex-practice2-pg1-v8:/opt/share$ ls
+[?2004l[?2004h]0;user3@eltex-practice2-pg1-v8: /opt/shareuser3@eltex-practice2-pg1-v8:/opt/share$ toush[K[Kch user3test
+[?2004l[?2004h]0;user3@eltex-practice2-pg1-v8: /opt/shareuser3@eltex-practice2-pg1-v8:/opt/share$ cd[K[Kexit
+[?2004lexit
+[?2004h]0;root@eltex-practice2-pg1-v8: /optroot@eltex-practice2-pg1-v8:/opt# su user1
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /optuser1@eltex-practice2-pg1-v8:/opt$ cd /[Kshare
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /opt/shareuser1@eltex-practice2-pg1-v8:/opt/share$ rm user3test
+[?2004lrm: cannot remove 'user3test': Operation not permitted
+[?2004h]0;user1@eltex-practice2-pg1-v8: /opt/shareuser1@eltex-practice2-pg1-v8:/opt/share$ exit
+[?2004lexit
+[?2004h]0;root@eltex-practice2-pg1-v8: /optroot@eltex-practice2-pg1-v8:/opt# св юю[K[K[K[K[Kcd ..
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# 
+
+[K[A[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# [7msudo sysctl -w kernel.dmesg_restrict=1 [3](https://blog.sedicomm.c[27m[7mo[27m[7mm/2023/05/16/kak-ogranichit-vyvod-dmesg-v-linux/) [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo sysctl -w kernel.dmesg_restrict=1 [3](https://blog.sedicomm.com/2023/05/16/kak-ogranichit-vyvod-dmesg-v-linux/)                                                  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C                           
+[?2004lkernel.dmesg_restrict = 1
+[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# su u[K[K[K[K[7msudo sysctl -w kernel.dmesg_restrict=1[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psudo sysctl -w kernel.dmesg_restrict=[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksu user1
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /user1@eltex-practice2-pg1-v8:/$ [7msudo sysctl -w kernel.dmesg_restrict=1[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo sysctl -w kernel.dmesg_restrict=1
+[?2004l[sudo] password for user1: 
+user1 is not in the sudoers file.
+[?2004h]0;user1@eltex-practice2-pg1-v8: /user1@eltex-practice2-pg1-v8:/$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;user1@eltex-practice2-pg1-v8: /user1@eltex-practice2-pg1-v8:/$ sudi[Ko visudo
+[?2004l[sudo] password for user1: 
+user1 is not in the sudoers file.
+[?2004h]0;user1@eltex-practice2-pg1-v8: /user1@eltex-practice2-pg1-v8:/$ exit
+[?2004lexit
+[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# sudo visudo
+[?2004l[?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;42H(B[0;7m[ Reading... ](B[m[25;41H(B[0;7m[ Read 57 lines ](B[m[H(B[0;7m  GNU nano 7.2                             /etc/sudoers.tmp                                      [1;96H(B[m[26d(B[0;7m^G(B[m Help[26;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[26;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location[27d(B[0;7m^X(B[m Exit[27;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[27;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line[2d[36m#[3d# This file MUST be edited with the 'visudo' command as root.[4d#[5d# Please consider adding local content in /etc/sudoers.d/ instead of[6d# directly modifying this file.[7d#[8d# See the man page for details on how to write a sudoers file.[9d#[10d[39m(B[mDefaults[10;17Henv_reset[11dDefaults[11;17Hmail_badpass[12dDefaults[12;17Hsecure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/(B[0;7m>[14;1H(B[0m[36m# This fixes CVE-2005-4890 and possibly breaks some versions of kdesu[15d# (#1011624, https://bugs.kde.org/show_bug.cgi?id=452532)[16d[39m(B[mDefaults[16;17Huse_pty[18d[36m# This preserves proxy settings from user environments of root[19d# equivalent users (group sudo)[20d#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all_proxy no_proxy"[22d# This allows running arbitrary commands, but so does ALL, and it means[23d# different sudoers have their choice of editor respected.[24d#Defaults:%sudo env_keep += "EDITOR"[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[25d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Completely harmless preservation of a user preference.[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m#Defaults:%sudo env_keep += "GREP_COLOR"[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# While you shouldn't normally run git as root, you need to with etckeeper[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Per-user preferences; root won't have sensible values for them.[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Ditto for GPG agent[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m#Defaults:%sudo env_keep += "GPG_AGENT_INFO"[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Host alias specification[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# User alias specification[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Cmnd alias specification[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# User privilege specification[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1Hroot    (B[mALL=(ALL:ALL) ALL[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Members of the admin group may gain root privileges[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H%admin ALL=(ALL) ALL[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# Allow members of group sudo to execute any command[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H%sudo   (B[mALL=(ALL:ALL) ALL[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[36m# See sudoers(5) for more information on "@include" directives:[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H@includedir /etc/sudoers.d[?25l[?12l[?25h7[2;25r8[25d
+[1;27r[24;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[A[?25l[?12l[?25h@[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hc[?25l[?12l[?25hl[?25l[?12l[?25hu[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25hi[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25h/[?25l[?12l[?25he[?25l[?12l[?25ht[?25l[?12l[?25hc[?25l[?12l[?25h/[?25l[?12l[?25hs[?25l[?12l[?25hu[?25l[?12l[?25hd[?25l[?12l[?25ho[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25hs[?25l[?12l[?25h.[?25l[?12l[?25hd[?25l[?12l[?25h[24d[?25l[1;61H(B[0;7m*[96G(B[m[2;25r[25;1H
+[1;27r[23;1Huser1 ALL=(ALL)[24dNOPASSWD: /bin/dmesg[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[25d(B[0;7mSave modified buffer?                                                                            [26;1H Y(B[m Yes[K[27d(B[0;7m N(B[m No  [27;18H(B[0;7mC(B[m Cancel[K[25;23H[?12l[?25h[?25l[26d(B[0;7m^G(B[m Help[26;25H(B[0;7mM-D(B[m DOS Format[26;49H(B[0;7mM-A(B[m Append[26;73H(B[0;7mM-B(B[m Backup File[27d(B[0;7m^C(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format[27;49H(B[0;7mM-P(B[m Prepend[27;73H(B[0;7m^T(B[m Browse[25d(B[0;7mFile Name to Write: /etc/sudoers.tmp(B[m[?12l[?25h[?25l[42G[1K (B[0;7m[ Cancelled ](B[m[K[26;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut    [65G(B[0;7m^T(B[m Execute      (B[0;7m^C(B[m Location[27;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste        (B[0;7m^J(B[m Justify      (B[0;7m^/(B[m Go To Line[?12l[?25h[24d[?25l[23;16HNOPASSWD: /bin/dmesg[24d[K[23;16H[?12l[?25h[?25l[?12l[?25h NOPASSWD: /bin/dmesg[23;17H[?25l[26d        (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[65G        (B[0;7mM-B(B[m Backup File[K[27;2H(B[0;7mC(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format    [49G(B[0;7mM-P(B[m Prepend             (B[0;7m^T(B[m Browse[K[25d(B[0;7mFile Name to Write: /etc/sudoers.tmp                                                             [25;37H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;61H(B[0;7m [96G(B[m[25;40H(B[0;7m[ Wrote 58 lines ](B[m[26;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut    [65G(B[0;7m^T(B[m Execute      (B[0;7m^C(B[m Location[27;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste        (B[0;7m^J(B[m Justify      (B[0;7m^/(B[m Go To Line[?12l[?25h[23;17H[?25l[25d[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# sudo visudo[3P user1do sysctl -w kernel.dmesg_restrict=1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksu user1
+[?2004l[?2004h]0;user1@eltex-practice2-pg1-v8: /user1@eltex-practice2-pg1-v8:/$ dmesh[Kg
+[?2004ldmesg: read kernel buffer failed: Operation not permitted
+[?2004h]0;user1@eltex-practice2-pg1-v8: /user1@eltex-practice2-pg1-v8:/$ [7msysctl -w kernel.dmesg_restrict=1[27msysctl -w kernel.dmesg_restrict=1
+[?2004lsysctl: permission denied on key "kernel.dmesg_restrict", ignoring
+kernel.dmesg_restrict = 1
+[?2004h]0;user1@eltex-practice2-pg1-v8: /user1@eltex-practice2-pg1-v8:/$ sysctl -w kernel.dmesg_restrict=1[1@ [1@s[1@u[1@d[1@p[1P[1@o
+[?2004l[sudo] password for user1: 
+Sorry, user user1 is not allowed to execute '/usr/sbin/sysctl -w kernel.dmesg_restrict=1' as root on eltex-practice2-pg1-v8.
+[?2004h]0;user1@eltex-practice2-pg1-v8: /user1@eltex-practice2-pg1-v8:/$ sudo dmesh[Kg
+[?2004l[32m[    0.000000] [0mLinux version 6.8.0-55-generic (buildd@lcy02-amd64-095) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #57-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb 12 23:42:21 UTC 2025 (Ubuntu 6.8.0-55.57-generic 6.8.12)
+[32m[    0.000000] [0m[33mCommand line: [0mBOOT_IMAGE=/vmlinuz-6.8.0-55-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro
+[32m[    0.000000] [0mKERNEL supported cpus:
+[32m[    0.000000] [0m  Intel GenuineIntel
+[32m[    0.000000] [0m  AMD AuthenticAMD
+[32m[    0.000000] [0m  Hygon HygonGenuine
+[32m[    0.000000] [0m  Centaur CentaurHauls
+[32m[    0.000000] [0m  zhaoxin   Shanghai  
+[32m[    0.000000] [0mBIOS-provided physical RAM map:
+[32m[    0.000000] [0m[33mBIOS-e820: [0m[mem 0x0000000000000000-0x000000000009fbff] usable
+[32m[    0.000000] [0m[33mBIOS-e820: [0m[mem 0x000000000009fc00-0x000000000009ffff] reserved
+[32m[    0.000000] [0m[33mBIOS-e820: [0m[mem 0x00000000000f0000-0x00000000000fffff] reserved
+[32m[    0.000000] [0m[33mBIOS-e820: [0m[mem 0x0000000000100000-0x00000000bffd9fff] usable
+[32m[    0.000000] [0m[33mBIOS-e820: [0m[mem 0x00000000bffda000-0x00000000bfffffff] reserved
+[32m[    0.000000] [0m[33mBIOS-e820: [0m[mem 0x00000000feffc000-0x00000000feffffff] reserved
+[32m[    0.000000] [0m[33mBIOS-e820: [0m[mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+[32m[    0.000000] [0m[33mBIOS-e820: [0m[mem 0x0000000100000000-0x000000013fffffff] usable
+[32m[    0.000000] [0m[33mBIOS-e820: [0m[mem 0x000000fd00000000-0x000000ffffffffff] reserved
+[32m[    0.000000] [0m[33mNX (Execute Disable) protection: [0mactive
+[32m[    0.000000] [0m[33mAPIC: [0mStatic calls initialized
+[32m[    0.000000] [0mSMBIOS 2.8 present.
+[32m[    0.000000] [0m[33mDMI: [0mQEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.3-0-ga6ed6b701f0a-prebuilt.qemu.org 04/01/2014
+[32m[    0.000000] [0m[33mHypervisor detected: [0mKVM
+[32m[    0.000000] [0m[33mkvm-clock: [0mUsing msrs 4b564d01 and 4b564d00
+[32m[    0.000001] [0m[33mkvm-clock: [0musing sched offset of 2740945674862 cycles
+[32m[    0.000003] [0m[33mclocksource: [0mkvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+[32m[    0.000009] [0m[33mtsc: [0mDetected 3399.996 MHz processor
+[32m[    0.000904] [0m[33me820: [0mupdate [mem 0x00000000-0x00000fff] usable ==> reserved
+[32m[    0.000907] [0m[33me820: [0mremove [mem 0x000a0000-0x000fffff] usable
+[32m[    0.034731] [0m[33mAGP: [0mNo AGP bridge found
+[32m[    0.035083] [0mlast_pfn = 0x140000 max_arch_pfn = 0x400000000
+[32m[    0.035112] [0m[33mMTRR map: [0m4 entries (3 fixed + 1 variable; max 19), built from 8 variable MTRRs
+[32m[    0.035115] [0m[33mx86/PAT: [0mConfiguration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[32m[    0.035150] [0mlast_pfn = 0xbffda max_arch_pfn = 0x400000000
+[32m[    0.036740] [0mfound SMP MP-table at [mem 0x000f5450-0x000f545f]
+[32m[    0.036925] [0m[33mRAMDISK: [0m[mem 0x2fccd000-0x33e5dfff]
+[32m[    0.037388] [0m[33mACPI: [0mEarly table checksum verification disabled
+[32m[    0.037392] [0m[33mACPI: [0mRSDP 0x00000000000F5250 000014 (v00 BOCHS )
+[32m[    0.037397] [0m[33mACPI: [0mRSDT 0x00000000BFFE2F86 000038 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+[32m[    0.037403] [0m[33mACPI: [0mFACP 0x00000000BFFE2D68 000074 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+[32m[    0.037408] [0m[33mACPI: [0mDSDT 0x00000000BFFDF040 003D28 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+[32m[    0.037410] [0m[33mACPI: [0mFACS 0x00000000BFFDF000 000040
+[32m[    0.037412] [0m[33mACPI: [0mAPIC 0x00000000BFFE2DDC 000080 (v03 BOCHS  BXPC     00000001 BXPC 00000001)
+[32m[    0.037413] [0m[33mACPI: [0mSSDT 0x00000000BFFE2E5C 0000CA (v01 BOCHS  VMGENID  00000001 BXPC 00000001)
+[32m[    0.037415] [0m[33mACPI: [0mHPET 0x00000000BFFE2F26 000038 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+[32m[    0.037417] [0m[33mACPI: [0mWAET 0x00000000BFFE2F5E 000028 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+[32m[    0.037418] [0m[33mACPI: [0mReserving FACP table memory at [mem 0xbffe2d68-0xbffe2ddb]
+[32m[    0.037419] [0m[33mACPI: [0mReserving DSDT table memory at [mem 0xbffdf040-0xbffe2d67]
+[32m[    0.037420] [0m[33mACPI: [0mReserving FACS table memory at [mem 0xbffdf000-0xbffdf03f]
+[32m[    0.037421] [0m[33mACPI: [0mReserving APIC table memory at [mem 0xbffe2ddc-0xbffe2e5b]
+[32m[    0.037421] [0m[33mACPI: [0mReserving SSDT table memory at [mem 0xbffe2e5c-0xbffe2f25]
+[32m[    0.037422] [0m[33mACPI: [0mReserving HPET table memory at [mem 0xbffe2f26-0xbffe2f5d]
+[32m[    0.037422] [0m[33mACPI: [0mReserving WAET table memory at [mem 0xbffe2f5e-0xbffe2f85]
+[32m[    0.037682] [0mNo NUMA configuration found
+[32m[    0.037683] [0mFaking a node at [mem 0x0000000000000000-0x000000013fffffff]
+[32m[    0.037689] [0mNODE_DATA(0) allocated [mem 0x13ffd2000-0x13fffcfff]
+[32m[    0.037901] [0mZone ranges:
+[32m[    0.037901] [0m  DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[32m[    0.037903] [0m  DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[32m[    0.037905] [0m  Normal   [mem 0x0000000100000000-0x000000013fffffff]
+[32m[    0.037907] [0m  Device   empty
+[32m[    0.037907] [0mMovable zone start for each node
+[32m[    0.037909] [0mEarly memory node ranges
+[32m[    0.037909] [0m[33m  node   0: [0m[mem 0x0000000000001000-0x000000000009efff]
+[32m[    0.037910] [0m[33m  node   0: [0m[mem 0x0000000000100000-0x00000000bffd9fff]
+[32m[    0.037911] [0m[33m  node   0: [0m[mem 0x0000000100000000-0x000000013fffffff]
+[32m[    0.037912] [0mInitmem setup node 0 [mem 0x0000000000001000-0x000000013fffffff]
+[32m[    0.037918] [0m[33mOn node 0, zone DMA: [0m1 pages in unavailable ranges
+[32m[    0.037934] [0m[33mOn node 0, zone DMA: [0m97 pages in unavailable ranges
+[32m[    0.042828] [0m[33mOn node 0, zone Normal: [0m38 pages in unavailable ranges
+[32m[    0.043502] [0m[33mACPI: [0mPM-Timer IO Port: 0x608
+[32m[    0.043508] [0m[33mACPI: [0mLAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+[32m[    0.043528] [0m[33mIOAPIC[0]: [0mapic_id 0, version 17, address 0xfec00000, GSI 0-23
+[32m[    0.043530] [0m[33mACPI: [0mINT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[32m[    0.043531] [0m[33mACPI: [0mINT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+[32m[    0.043532] [0m[33mACPI: [0mINT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[32m[    0.043533] [0m[33mACPI: [0mINT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+[32m[    0.043533] [0m[33mACPI: [0mINT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+[32m[    0.043536] [0m[33mACPI: [0mUsing ACPI (MADT) for SMP configuration information
+[32m[    0.043536] [0m[33mACPI: [0mHPET id: 0x8086a201 base: 0xfed00000
+[32m[    0.043539] [0m[33msmpboot: [0mAllowing 2 CPUs, 0 hotplug CPUs
+[32m[    0.043551] [0m[33mkvm-guest: [0mAPIC: eoi() replaced with kvm_guest_apic_eoi_write()
+[32m[    0.043562] [0m[33mPM: [0mhibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[32m[    0.043563] [0m[33mPM: [0mhibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+[32m[    0.043564] [0m[33mPM: [0mhibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+[32m[    0.043564] [0m[33mPM: [0mhibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+[32m[    0.043565] [0m[33mPM: [0mhibernation: Registered nosave memory: [mem 0xbffda000-0xbfffffff]
+[32m[    0.043565] [0m[33mPM: [0mhibernation: Registered nosave memory: [mem 0xc0000000-0xfeffbfff]
+[32m[    0.043566] [0m[33mPM: [0mhibernation: Registered nosave memory: [mem 0xfeffc000-0xfeffffff]
+[32m[    0.043566] [0m[33mPM: [0mhibernation: Registered nosave memory: [mem 0xff000000-0xfffbffff]
+[32m[    0.043567] [0m[33mPM: [0mhibernation: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+[32m[    0.043568] [0m[mem 0xc0000000-0xfeffbfff] available for PCI devices
+[32m[    0.043569] [0mBooting paravirtualized kernel on KVM
+[32m[    0.043570] [0m[33mclocksource: [0mrefined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+[32m[    0.043577] [0m[33msetup_percpu: [0mNR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+[32m[    0.044439] [0m[33mpercpu: [0mEmbedded 86 pages/cpu s229376 r8192 d114688 u1048576
+[32m[    0.044442] [0m[33mpcpu-alloc: [0ms229376 r8192 d114688 u1048576 alloc=1*2097152
+[32m[    0.044444] [0m[33mpcpu-alloc: [0m[0] 0 1 
+[32m[    0.044466] [0m[33mkvm-guest: [0mPV spinlocks enabled
+[32m[    0.044468] [0m[33mPV qspinlock hash table entries: [0m256 (order: 0, 4096 bytes, linear)
+[32m[    0.044470] [0m[33mKernel command line: [0mBOOT_IMAGE=/vmlinuz-6.8.0-55-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro
+[32m[    0.044502] [0mUnknown kernel command line parameters "BOOT_IMAGE=/vmlinuz-6.8.0-55-generic", will be passed to user space.
+[32m[    0.044816] [0m[33mDentry cache hash table entries: [0m524288 (order: 10, 4194304 bytes, linear)
+[32m[    0.044956] [0m[33mInode-cache hash table entries: [0m262144 (order: 9, 2097152 bytes, linear)
+[32m[    0.044984] [0m[33mFallback order for Node 0: [0m0 
+[32m[    0.044987] [0m[33mBuilt 1 zonelists, mobility grouping on.  Total pages: [0m1031898
+[32m[    0.044988] [0m[33mPolicy zone: [0mNormal
+[32m[    0.044992] [0m[33mmem auto-init: [0mstack:all(zero), heap alloc:on, heap free:off
+[32m[    0.044993] [0m[33mAGP: [0mChecking aperture...
+[32m[    0.080358] [0m[33mAGP: [0mNo AGP bridge found
+[32m[    0.080656] [0m[33msoftware IO TLB: [0marea num 2.
+[32m[    0.093645] [0m[33mMemory: [0m3933488K/4193760K available (22528K kernel code, 4443K rwdata, 14344K rodata, 4988K init, 4716K bss, 260012K reserved, 0K cma-reserved)
+[32m[    0.111464] [0m[33mSLUB: [0mHWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+[32m[    0.111547] [0m[33mftrace: [0mallocating 58006 entries in 227 pages
+[32m[    0.120592] [0m[33mftrace: [0mallocated 227 pages with 5 groups
+[32m[    0.121258] [0m[33mDynamic Preempt: [0mvoluntary
+[32m[    0.121342] [0m[33mrcu: [0mPreemptible hierarchical RCU implementation.
+[32m[    0.121343] [0m[33mrcu: [0m	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+[32m[    0.121344] [0m	Trampoline variant of Tasks RCU enabled.
+[32m[    0.121344] [0m	Rude variant of Tasks RCU enabled.
+[32m[    0.121345] [0m	Tracing variant of Tasks RCU enabled.
+[32m[    0.121345] [0m[33mrcu: [0mRCU calculated value of scheduler-enlistment delay is 100 jiffies.
+[32m[    0.121346] [0m[33mrcu: [0mAdjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[32m[    0.123452] [0m[33mNR_IRQS: [0m524544, nr_irqs: 440, preallocated irqs: 16
+[32m[    0.123649] [0m[33mrcu: [0msrcu_init: Setting srcu_struct sizes based on contention.
+[32m[    0.123696] [0m[33mConsole: [0mcolour dummy device 80x25
+[32m[    0.123698] [0m[33mprintk: [0mlegacy console [tty0] enabled
+[32m[    0.123935] [0m[33mACPI: [0mCore revision 20230628
+[32m[    0.124108] [0m[33mclocksource: [0mhpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604467 ns
+[32m[    0.124183] [0m[33mAPIC: [0mSwitch to symmetric I/O mode setup
+[32m[    0.124320] [0mx2apic enabled
+[32m[    0.124526] [0m[33mAPIC: [0mSwitched APIC routing to: physical x2apic
+[32m[    0.125319] [0m[33m..TIMER: [0mvector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[32m[    0.125338] [0m[33mtsc: [0mMarking TSC unstable due to TSCs unsynchronized
+[32m[    0.125343] [0mCalibrating delay loop (skipped) preset value.. 6799.99 BogoMIPS (lpj=3399996)
+[32m[    0.125448] [0m[33mprocess: [0musing AMD E400 aware idle routine
+[32m[    0.125452] [0m[33mLast level iTLB entries: [0m4KB 512, 2MB 255, 4MB 127
+[32m[    0.125454] [0m[33mLast level dTLB entries: [0m4KB 512, 2MB 255, 4MB 127, 1GB 0
+[32m[    0.125457] [0m[33mSpectre V1 : [0mMitigation: usercopy/swapgs barriers and __user pointer sanitization
+[32m[    0.125460] [0m[33mSpectre V2 : [0mMitigation: Retpolines
+[32m[    0.125462] [0m[33mSpectre V2 : [0mSpectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[32m[    0.125464] [0m[33mSpectre V2 : [0mSpectre v2 / SpectreRSB : Filling RSB on VMEXIT
+[32m[    0.125468] [0m[33mx86/fpu: [0mx87 FPU will use FXSAVE
+[32m[    0.144441] [0m[33mFreeing SMP alternatives memory: [0m48K
+[32m[    0.144446] [0m[33mpid_max: [0mdefault: 32768 minimum: 301
+[32m[    0.144777] [0m[33mLSM: [0minitializing lsm=lockdown,capability,landlock,yama,apparmor,integrity
+[32m[    0.144889] [0m[33mlandlock: [0mUp and running.
+[32m[    0.144891] [0m[33mYama: [0mbecoming mindful.
+[32m[    0.144934] [0m[33mAppArmor: [0mAppArmor initialized
+[32m[    0.145058] [0m[33mMount-cache hash table entries: [0m8192 (order: 4, 65536 bytes, linear)
+[32m[    0.145063] [0m[33mMountpoint-cache hash table entries: [0m8192 (order: 4, 65536 bytes, linear)
+[32m[    0.247511] [0m[33msmpboot: [0mCPU0: AMD QEMU Virtual CPU version 2.5+ (family: 0xf, model: 0x6b, stepping: 0x1)
+[32m[    0.247667] [0m[33mRCU Tasks: [0mSetting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+[32m[    0.247684] [0m[33mRCU Tasks Rude: [0mSetting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+[32m[    0.247694] [0m[33mRCU Tasks Trace: [0mSetting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+[32m[    0.247705] [0m[33mPerformance Events: [0mAMD PMU driver.
+[32m[    0.247715] [0m[33m... version: [0m               0
+[32m[    0.247716] [0m[33m... bit width: [0m             48
+[32m[    0.247717] [0m[33m... generic registers: [0m     4
+[32m[    0.247719] [0m[33m... value mask: [0m            0000ffffffffffff
+[32m[    0.247720] [0m[33m... max period: [0m            00007fffffffffff
+[32m[    0.247721] [0m[33m... fixed-purpose events: [0m  0
+[32m[    0.247722] [0m[33m... event mask: [0m            000000000000000f
+[32m[    0.247776] [0m[33msignal: [0mmax sigframe size: 1440
+[32m[    0.247805] [0m[33mrcu: [0mHierarchical SRCU implementation.
+[32m[    0.247807] [0m[33mrcu: [0m	Max phase no-delay instances is 400.
+[32m[    0.248053] [0m[33msmp: [0mBringing up secondary CPUs ...
+[32m[    0.248131] [0m[33msmpboot: [0mx86: Booting SMP configuration:
+[32m[    0.248133] [0m[33m.... node  #0, CPUs: [0m     #1
+[32m[    0.248364] [0m[33msmp: [0mBrought up 1 node, 2 CPUs
+[32m[    0.248368] [0m[33msmpboot: [0mMax logical packages: 1
+[32m[    0.248370] [0m[33msmpboot: [0mTotal of 2 processors activated (13599.98 BogoMIPS)
+[32m[    0.248601] [0m[33mdevtmpfs: [0minitialized
+[32m[    0.248601] [0m[33mx86/mm: [0mMemory block size: 128MB
+[32m[    0.248670] [0m[33mclocksource: [0mjiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[32m[    0.248670] [0m[33mfutex hash table entries: [0m512 (order: 3, 32768 bytes, linear)
+[32m[    0.248670] [0m[33mpinctrl core: [0minitialized pinctrl subsystem
+[32m[    0.249394] [0m[33mPM: [0mRTC time: 19:59:12, date: 2025-03-12
+[32m[    0.249795] [0m[33mNET: [0mRegistered PF_NETLINK/PF_ROUTE protocol family
+[32m[    0.249880] [0m[33mDMA: [0mpreallocated 512 KiB GFP_KERNEL pool for atomic allocations
+[32m[    0.249908] [0m[33mDMA: [0mpreallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[32m[    0.249937] [0m[33mDMA: [0mpreallocated 512 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[32m[    0.249945] [0m[33maudit: [0minitializing netlink subsys (disabled)
+[32m[    0.249969] [0m[33maudit: [0mtype=2000 audit(1741809552.277:1): state=initialized audit_enabled=0 res=1
+[32m[    0.249969] [0m[33mthermal_sys: [0mRegistered thermal governor 'fair_share'
+[32m[    0.249969] [0m[33mthermal_sys: [0mRegistered thermal governor 'bang_bang'
+[32m[    0.249969] [0m[33mthermal_sys: [0mRegistered thermal governor 'step_wise'
+[32m[    0.249969] [0m[33mthermal_sys: [0mRegistered thermal governor 'user_space'
+[32m[    0.249969] [0m[33mthermal_sys: [0mRegistered thermal governor 'power_allocator'
+[32m[    0.249969] [0mEISA bus registered
+[32m[    0.249969] [0m[33mcpuidle: [0musing governor ladder
+[32m[    0.249969] [0m[33mcpuidle: [0musing governor menu
+[32m[    0.249969] [0m[33macpiphp: [0mACPI Hot Plug PCI Controller Driver version: 0.5
+[32m[    0.249969] [0m[33mPCI: [0mUsing configuration type 1 for base access
+[32m[    0.250400] [0m[33mkprobes: [0mkprobe jump-optimization is enabled. All kprobes are optimized if possible.
+[32m[    0.250449] [0m[33mHugeTLB: [0mregistered 2.00 MiB page size, pre-allocated 0 pages
+[32m[    0.250452] [0m[33mHugeTLB: [0m28 KiB vmemmap can be freed for a 2.00 MiB page
+[32m[    0.255139] [0m[33mfbcon: [0mTaking over console
+[32m[    0.255158] [0m[33mACPI: [0mAdded _OSI(Module Device)
+[32m[    0.255159] [0m[33mACPI: [0mAdded _OSI(Processor Device)
+[32m[    0.255161] [0m[33mACPI: [0mAdded _OSI(3.0 _SCP Extensions)
+[32m[    0.255162] [0m[33mACPI: [0mAdded _OSI(Processor Aggregator Device)
+[32m[    0.256399] [0m[33mACPI: [0m2 ACPI AML tables successfully acquired and loaded
+[32m[    0.256805] [0m[33mACPI: [0m_OSC evaluation for CPUs failed, trying _PDC
+[32m[    0.256946] [0m[33mACPI: [0mInterpreter enabled
+[32m[    0.256955] [0m[33mACPI: [0mPM: (supports S0 S3 S4 S5)
+[32m[    0.256957] [0m[33mACPI: [0mUsing IOAPIC for interrupt routing
+[32m[    0.257134] [0m[33mPCI: [0mUsing host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[32m[    0.257136] [0m[33mPCI: [0mUsing E820 reservations for host bridge windows
+[32m[    0.257234] [0m[33mACPI: [0mEnabled 3 GPEs in block 00 to 0F
+[32m[    0.260402] [0m[33mACPI: [0mPCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[32m[    0.260408] [0m[33macpi PNP0A03:00: [0m_OSC: OS supports [ASPM ClockPM Segments MSI EDR HPX-Type3]
+[32m[    0.260412] [0m[33macpi PNP0A03:00: [0m_OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+[32m[    0.260424] [0m[33macpi PNP0A03:00: [0m[1mfail to add MMCONFIG information, can't access extended configuration space under this bridge[0m
+[32m[    0.260771] [0m[33macpiphp: [0mSlot [3] registered
+[32m[    0.260789] [0m[33macpiphp: [0mSlot [8] registered
+[32m[    0.260807] [0m[33macpiphp: [0mSlot [18] registered
+[32m[    0.260831] [0m[33macpiphp: [0mSlot [4] registered
+[32m[    0.260841] [0m[33macpiphp: [0mSlot [6] registered
+[32m[    0.260850] [0m[33macpiphp: [0mSlot [7] registered
+[32m[    0.260859] [0m[33macpiphp: [0mSlot [9] registered
+[32m[    0.260868] [0m[33macpiphp: [0mSlot [10] registered
+[32m[    0.260877] [0m[33macpiphp: [0mSlot [11] registered
+[32m[    0.260889] [0m[33macpiphp: [0mSlot [12] registered
+[32m[    0.260898] [0m[33macpiphp: [0mSlot [13] registered
+[32m[    0.260907] [0m[33macpiphp: [0mSlot [14] registered
+[32m[    0.260916] [0m[33macpiphp: [0mSlot [15] registered
+[32m[    0.260928] [0m[33macpiphp: [0mSlot [16] registered
+[32m[    0.260941] [0m[33macpiphp: [0mSlot [17] registered
+[32m[    0.260951] [0m[33macpiphp: [0mSlot [19] registered
+[32m[    0.260961] [0m[33macpiphp: [0mSlot [20] registered
+[32m[    0.260970] [0m[33macpiphp: [0mSlot [21] registered
+[32m[    0.260979] [0m[33macpiphp: [0mSlot [22] registered
+[32m[    0.260988] [0m[33macpiphp: [0mSlot [23] registered
+[32m[    0.260996] [0m[33macpiphp: [0mSlot [24] registered
+[32m[    0.261005] [0m[33macpiphp: [0mSlot [25] registered
+[32m[    0.261017] [0m[33macpiphp: [0mSlot [26] registered
+[32m[    0.261037] [0m[33macpiphp: [0mSlot [27] registered
+[32m[    0.261052] [0m[33macpiphp: [0mSlot [28] registered
+[32m[    0.261066] [0m[33macpiphp: [0mSlot [29] registered
+[32m[    0.261074] [0mPCI host bridge to bus 0000:00
+[32m[    0.261076] [0m[33mpci_bus 0000:00: [0mroot bus resource [io  0x0000-0x0cf7 window]
+[32m[    0.261079] [0m[33mpci_bus 0000:00: [0mroot bus resource [io  0x0d00-0xffff window]
+[32m[    0.261081] [0m[33mpci_bus 0000:00: [0mroot bus resource [mem 0x000a0000-0x000bffff window]
+[32m[    0.261083] [0m[33mpci_bus 0000:00: [0mroot bus resource [mem 0xc0000000-0xfebfffff window]
+[32m[    0.261085] [0m[33mpci_bus 0000:00: [0mroot bus resource [mem 0xc000000000-0xc0a000bfff window]
+[32m[    0.261088] [0m[33mpci_bus 0000:00: [0mroot bus resource [bus 00-ff]
+[32m[    0.261119] [0m[33mpci 0000:00:00.0: [0m[8086:1237] type 00 class 0x060000 conventional PCI endpoint
+[32m[    0.261416] [0m[33mpci 0000:00:01.0: [0m[8086:7000] type 00 class 0x060100 conventional PCI endpoint
+[32m[    0.261783] [0m[33mpci 0000:00:01.1: [0m[8086:7010] type 00 class 0x010180 conventional PCI endpoint
+[32m[    0.264002] [0m[33mpci 0000:00:01.1: [0mBAR 4 [io  0xf0c0-0xf0cf]
+[32m[    0.265090] [0m[33mpci 0000:00:01.1: [0mBAR 0 [io  0x01f0-0x01f7]: legacy IDE quirk
+[32m[    0.265094] [0m[33mpci 0000:00:01.1: [0mBAR 1 [io  0x03f6]: legacy IDE quirk
+[32m[    0.265096] [0m[33mpci 0000:00:01.1: [0mBAR 2 [io  0x0170-0x0177]: legacy IDE quirk
+[32m[    0.265098] [0m[33mpci 0000:00:01.1: [0mBAR 3 [io  0x0376]: legacy IDE quirk
+[32m[    0.265195] [0m[33mpci 0000:00:01.2: [0m[8086:7020] type 00 class 0x0c0300 conventional PCI endpoint
+[32m[    0.267098] [0m[33mpci 0000:00:01.2: [0mBAR 4 [io  0xf080-0xf09f]
+[32m[    0.268554] [0m[33mpci 0000:00:01.3: [0m[8086:7113] type 00 class 0x068000 conventional PCI endpoint
+[32m[    0.268819] [0m[33mpci 0000:00:01.3: [0mquirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+[32m[    0.268827] [0m[33mpci 0000:00:01.3: [0mquirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+[32m[    0.268951] [0m[33mpci 0000:00:02.0: [0m[1234:1111] type 00 class 0x030000 conventional PCI endpoint
+[32m[    0.269785] [0m[33mpci 0000:00:02.0: [0mBAR 0 [mem 0xfd000000-0xfdffffff pref]
+[32m[    0.272195] [0m[33mpci 0000:00:02.0: [0mBAR 2 [mem 0xfea50000-0xfea50fff]
+[32m[    0.274618] [0m[33mpci 0000:00:02.0: [0mROM [mem 0xfea40000-0xfea4ffff pref]
+[32m[    0.274658] [0m[33mpci 0000:00:02.0: [0mVideo device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[32m[    0.274814] [0m[33mpci 0000:00:03.0: [0m[1af4:1002] type 00 class 0x00ff00 conventional PCI endpoint
+[32m[    0.275342] [0m[33mpci 0000:00:03.0: [0mBAR 0 [io  0xf000-0xf03f]
+[32m[    0.278146] [0m[33mpci 0000:00:03.0: [0mBAR 4 [mem 0xc0a0000000-0xc0a0003fff 64bit pref]
+[32m[    0.279741] [0m[33mpci 0000:00:05.0: [0m[1b36:0001] type 01 class 0x060400 conventional PCI bridge
+[32m[    0.280900] [0m[33mpci 0000:00:05.0: [0mBAR 0 [mem 0xc000000000-0xc0000000ff 64bit]
+[32m[    0.282651] [0m[33mpci 0000:00:05.0: [0mPCI bridge to [bus 01]
+[32m[    0.282667] [0m[33mpci 0000:00:05.0: [0m  bridge window [io  0xe000-0xefff]
+[32m[    0.282678] [0m[33mpci 0000:00:05.0: [0m  bridge window [mem 0xfe800000-0xfe9fffff]
+[32m[    0.283360] [0m[33mpci 0000:00:05.0: [0m  bridge window [mem 0xc080000000-0xc09fffffff 64bit pref]
+[32m[    0.284031] [0m[33mpci 0000:00:08.0: [0m[1af4:1003] type 00 class 0x078000 conventional PCI endpoint
+[32m[    0.284604] [0m[33mpci 0000:00:08.0: [0mBAR 0 [io  0xf040-0xf07f]
+[32m[    0.285134] [0m[33mpci 0000:00:08.0: [0mBAR 1 [mem 0xfea51000-0xfea51fff]
+[32m[    0.286950] [0m[33mpci 0000:00:08.0: [0mBAR 4 [mem 0xc0a0004000-0xc0a0007fff 64bit pref]
+[32m[    0.289749] [0m[33mpci 0000:00:12.0: [0m[1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[32m[    0.290342] [0m[33mpci 0000:00:12.0: [0mBAR 0 [io  0xf0a0-0xf0bf]
+[32m[    0.290909] [0m[33mpci 0000:00:12.0: [0mBAR 1 [mem 0xfea52000-0xfea52fff]
+[32m[    0.294342] [0m[33mpci 0000:00:12.0: [0mBAR 4 [mem 0xc0a0008000-0xc0a000bfff 64bit pref]
+[32m[    0.294951] [0m[33mpci 0000:00:12.0: [0mROM [mem 0xfea00000-0xfea3ffff pref]
+[32m[    0.297574] [0m[33mpci 0000:00:1e.0: [0m[1b36:0001] type 01 class 0x060400 conventional PCI bridge
+[32m[    0.298192] [0m[33mpci 0000:00:1e.0: [0mBAR 0 [mem 0xc000001000-0xc0000010ff 64bit]
+[32m[    0.298551] [0m[33mpci 0000:00:1e.0: [0mPCI bridge to [bus 02]
+[32m[    0.298567] [0m[33mpci 0000:00:1e.0: [0m  bridge window [io  0xd000-0xdfff]
+[32m[    0.298578] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xfe600000-0xfe7fffff]
+[32m[    0.298805] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xc060000000-0xc07fffffff 64bit pref]
+[32m[    0.299135] [0m[33mpci 0000:00:1f.0: [0m[1b36:0001] type 01 class 0x060400 conventional PCI bridge
+[32m[    0.299781] [0m[33mpci 0000:00:1f.0: [0mBAR 0 [mem 0xc000002000-0xc0000020ff 64bit]
+[32m[    0.300136] [0m[33mpci 0000:00:1f.0: [0mPCI bridge to [bus 03]
+[32m[    0.300151] [0m[33mpci 0000:00:1f.0: [0m  bridge window [io  0xc000-0xcfff]
+[32m[    0.300161] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xfe400000-0xfe5fffff]
+[32m[    0.300467] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xc040000000-0xc05fffffff 64bit pref]
+[32m[    0.300945] [0m[33mpci_bus 0000:01: [0mextended config space not accessible
+[32m[    0.301066] [0m[33macpiphp: [0mSlot [1-2] registered
+[32m[    0.301078] [0m[33macpiphp: [0mSlot [0] registered
+[32m[    0.301088] [0m[33macpiphp: [0mSlot [2] registered
+[32m[    0.301099] [0m[33macpiphp: [0mSlot [3-2] registered
+[32m[    0.301110] [0m[33macpiphp: [0mSlot [4-2] registered
+[32m[    0.301119] [0m[33macpiphp: [0mSlot [5] registered
+[32m[    0.301129] [0m[33macpiphp: [0mSlot [6-2] registered
+[32m[    0.301139] [0m[33macpiphp: [0mSlot [7-2] registered
+[32m[    0.301150] [0m[33macpiphp: [0mSlot [8-2] registered
+[32m[    0.301161] [0m[33macpiphp: [0mSlot [9-2] registered
+[32m[    0.301171] [0m[33macpiphp: [0mSlot [10-2] registered
+[32m[    0.301182] [0m[33macpiphp: [0mSlot [11-2] registered
+[32m[    0.301192] [0m[33macpiphp: [0mSlot [12-2] registered
+[32m[    0.301202] [0m[33macpiphp: [0mSlot [13-2] registered
+[32m[    0.301212] [0m[33macpiphp: [0mSlot [14-2] registered
+[32m[    0.301224] [0m[33macpiphp: [0mSlot [15-2] registered
+[32m[    0.301234] [0m[33macpiphp: [0mSlot [16-2] registered
+[32m[    0.301244] [0m[33macpiphp: [0mSlot [17-2] registered
+[32m[    0.301255] [0m[33macpiphp: [0mSlot [18-2] registered
+[32m[    0.301265] [0m[33macpiphp: [0mSlot [19-2] registered
+[32m[    0.301275] [0m[33macpiphp: [0mSlot [20-2] registered
+[32m[    0.301285] [0m[33macpiphp: [0mSlot [21-2] registered
+[32m[    0.301297] [0m[33macpiphp: [0mSlot [22-2] registered
+[32m[    0.301307] [0m[33macpiphp: [0mSlot [23-2] registered
+[32m[    0.301317] [0m[33macpiphp: [0mSlot [24-2] registered
+[32m[    0.301327] [0m[33macpiphp: [0mSlot [25-2] registered
+[32m[    0.301347] [0m[33macpiphp: [0mSlot [26-2] registered
+[32m[    0.301358] [0m[33macpiphp: [0mSlot [27-2] registered
+[32m[    0.301368] [0m[33macpiphp: [0mSlot [28-2] registered
+[32m[    0.301379] [0m[33macpiphp: [0mSlot [29-2] registered
+[32m[    0.301389] [0m[33macpiphp: [0mSlot [30] registered
+[32m[    0.301398] [0m[33macpiphp: [0mSlot [31] registered
+[32m[    0.301616] [0m[33mpci 0000:01:01.0: [0m[1af4:1004] type 00 class 0x010000 conventional PCI endpoint
+[32m[    0.302342] [0m[33mpci 0000:01:01.0: [0mBAR 0 [io  0xe000-0xe03f]
+[32m[    0.303342] [0m[33mpci 0000:01:01.0: [0mBAR 1 [mem 0xfe800000-0xfe800fff]
+[32m[    0.306720] [0m[33mpci 0000:01:01.0: [0mBAR 4 [mem 0xc080000000-0xc080003fff 64bit pref]
+[32m[    0.313319] [0m[33mpci 0000:00:05.0: [0mPCI bridge to [bus 01]
+[32m[    0.313651] [0m[33mpci_bus 0000:02: [0mextended config space not accessible
+[32m[    0.313775] [0m[33macpiphp: [0mSlot [0-2] registered
+[32m[    0.313789] [0m[33macpiphp: [0mSlot [1-3] registered
+[32m[    0.313805] [0m[33macpiphp: [0mSlot [2-2] registered
+[32m[    0.313816] [0m[33macpiphp: [0mSlot [3-3] registered
+[32m[    0.313827] [0m[33macpiphp: [0mSlot [4-3] registered
+[32m[    0.313838] [0m[33macpiphp: [0mSlot [5-2] registered
+[32m[    0.313848] [0m[33macpiphp: [0mSlot [6-3] registered
+[32m[    0.313860] [0m[33macpiphp: [0mSlot [7-3] registered
+[32m[    0.313872] [0m[33macpiphp: [0mSlot [8-3] registered
+[32m[    0.313882] [0m[33macpiphp: [0mSlot [9-3] registered
+[32m[    0.313893] [0m[33macpiphp: [0mSlot [10-3] registered
+[32m[    0.313904] [0m[33macpiphp: [0mSlot [11-3] registered
+[32m[    0.313915] [0m[33macpiphp: [0mSlot [12-3] registered
+[32m[    0.313925] [0m[33macpiphp: [0mSlot [13-3] registered
+[32m[    0.313937] [0m[33macpiphp: [0mSlot [14-3] registered
+[32m[    0.313951] [0m[33macpiphp: [0mSlot [15-3] registered
+[32m[    0.313962] [0m[33macpiphp: [0mSlot [16-3] registered
+[32m[    0.313973] [0m[33macpiphp: [0mSlot [17-3] registered
+[32m[    0.313983] [0m[33macpiphp: [0mSlot [18-3] registered
+[32m[    0.313994] [0m[33macpiphp: [0mSlot [19-3] registered
+[32m[    0.314005] [0m[33macpiphp: [0mSlot [20-3] registered
+[32m[    0.314016] [0m[33macpiphp: [0mSlot [21-3] registered
+[32m[    0.314027] [0m[33macpiphp: [0mSlot [22-3] registered
+[32m[    0.314038] [0m[33macpiphp: [0mSlot [23-3] registered
+[32m[    0.314049] [0m[33macpiphp: [0mSlot [24-3] registered
+[32m[    0.314060] [0m[33macpiphp: [0mSlot [25-3] registered
+[32m[    0.314071] [0m[33macpiphp: [0mSlot [26-3] registered
+[32m[    0.314082] [0m[33macpiphp: [0mSlot [27-3] registered
+[32m[    0.314092] [0m[33macpiphp: [0mSlot [28-3] registered
+[32m[    0.314104] [0m[33macpiphp: [0mSlot [29-3] registered
+[32m[    0.314115] [0m[33macpiphp: [0mSlot [30-2] registered
+[32m[    0.314125] [0m[33macpiphp: [0mSlot [31-2] registered
+[32m[    0.319411] [0m[33mpci 0000:00:1e.0: [0mPCI bridge to [bus 02]
+[32m[    0.319739] [0m[33mpci_bus 0000:03: [0mextended config space not accessible
+[32m[    0.319871] [0m[33macpiphp: [0mSlot [0-3] registered
+[32m[    0.319884] [0m[33macpiphp: [0mSlot [1-4] registered
+[32m[    0.319895] [0m[33macpiphp: [0mSlot [2-3] registered
+[32m[    0.319907] [0m[33macpiphp: [0mSlot [3-4] registered
+[32m[    0.319918] [0m[33macpiphp: [0mSlot [4-4] registered
+[32m[    0.319929] [0m[33macpiphp: [0mSlot [5-3] registered
+[32m[    0.319940] [0m[33macpiphp: [0mSlot [6-4] registered
+[32m[    0.319951] [0m[33macpiphp: [0mSlot [7-4] registered
+[32m[    0.319961] [0m[33macpiphp: [0mSlot [8-4] registered
+[32m[    0.319972] [0m[33macpiphp: [0mSlot [9-4] registered
+[32m[    0.319984] [0m[33macpiphp: [0mSlot [10-4] registered
+[32m[    0.319996] [0m[33macpiphp: [0mSlot [11-4] registered
+[32m[    0.320007] [0m[33macpiphp: [0mSlot [12-4] registered
+[32m[    0.320018] [0m[33macpiphp: [0mSlot [13-4] registered
+[32m[    0.320029] [0m[33macpiphp: [0mSlot [14-4] registered
+[32m[    0.320040] [0m[33macpiphp: [0mSlot [15-4] registered
+[32m[    0.320051] [0m[33macpiphp: [0mSlot [16-4] registered
+[32m[    0.320064] [0m[33macpiphp: [0mSlot [17-4] registered
+[32m[    0.320076] [0m[33macpiphp: [0mSlot [18-4] registered
+[32m[    0.320087] [0m[33macpiphp: [0mSlot [19-4] registered
+[32m[    0.320098] [0m[33macpiphp: [0mSlot [20-4] registered
+[32m[    0.320110] [0m[33macpiphp: [0mSlot [21-4] registered
+[32m[    0.320121] [0m[33macpiphp: [0mSlot [22-4] registered
+[32m[    0.320132] [0m[33macpiphp: [0mSlot [23-4] registered
+[32m[    0.320144] [0m[33macpiphp: [0mSlot [24-4] registered
+[32m[    0.320155] [0m[33macpiphp: [0mSlot [25-4] registered
+[32m[    0.320166] [0m[33macpiphp: [0mSlot [26-4] registered
+[32m[    0.320177] [0m[33macpiphp: [0mSlot [27-4] registered
+[32m[    0.320188] [0m[33macpiphp: [0mSlot [28-4] registered
+[32m[    0.320199] [0m[33macpiphp: [0mSlot [29-4] registered
+[32m[    0.320210] [0m[33macpiphp: [0mSlot [30-3] registered
+[32m[    0.320222] [0m[33macpiphp: [0mSlot [31-3] registered
+[32m[    0.325384] [0m[33mpci 0000:00:1f.0: [0mPCI bridge to [bus 03]
+[32m[    0.326271] [0m[33mACPI: [0mPCI: Interrupt link LNKA configured for IRQ 10
+[32m[    0.326352] [0m[33mACPI: [0mPCI: Interrupt link LNKB configured for IRQ 10
+[32m[    0.326420] [0m[33mACPI: [0mPCI: Interrupt link LNKC configured for IRQ 11
+[32m[    0.326485] [0m[33mACPI: [0mPCI: Interrupt link LNKD configured for IRQ 11
+[32m[    0.326525] [0m[33mACPI: [0mPCI: Interrupt link LNKS configured for IRQ 9
+[32m[    0.326826] [0m[33miommu: [0mDefault domain type: Translated
+[32m[    0.326826] [0m[33miommu: [0mDMA domain TLB invalidation policy: lazy mode
+[32m[    0.326826] [0mSCSI subsystem initialized
+[32m[    0.326826] [0mlibata version 3.00 loaded.
+[32m[    0.326826] [0m[33mACPI: [0mbus type USB registered
+[32m[    0.326826] [0m[33musbcore: [0mregistered new interface driver usbfs
+[32m[    0.326826] [0m[33musbcore: [0mregistered new interface driver hub
+[32m[    0.326826] [0m[33musbcore: [0mregistered new device driver usb
+[32m[    0.326826] [0m[33mpps_core: [0mLinuxPPS API ver. 1 registered
+[32m[    0.326826] [0m[33mpps_core: [0mSoftware ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[32m[    0.326826] [0mPTP clock support registered
+[32m[    0.326826] [0m[33mEDAC MC: [0mVer: 3.0.0
+[32m[    0.327459] [0m[33mNetLabel: [0mInitializing
+[32m[    0.327461] [0m[33mNetLabel: [0m domain hash size = 128
+[32m[    0.327462] [0m[33mNetLabel: [0m protocols = UNLABELED CIPSOv4 CALIPSO
+[32m[    0.327475] [0m[33mNetLabel: [0m unlabeled traffic allowed by default
+[32m[    0.327487] [0m[33mmctp: [0mmanagement component transport protocol core
+[32m[    0.327487] [0m[33mNET: [0mRegistered PF_MCTP protocol family
+[32m[    0.327487] [0m[33mPCI: [0mUsing ACPI for IRQ routing
+[32m[    0.327487] [0m[33mPCI: [0mpci_cache_line_size set to 64 bytes
+[32m[    0.327487] [0m[33me820: [0mreserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+[32m[    0.327487] [0m[33me820: [0mreserve RAM buffer [mem 0xbffda000-0xbfffffff]
+[32m[    0.327488] [0m[33mpci 0000:00:02.0: [0mvgaarb: setting as boot VGA device
+[32m[    0.327488] [0m[33mpci 0000:00:02.0: [0mvgaarb: bridge control possible
+[32m[    0.327488] [0m[33mpci 0000:00:02.0: [0mvgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[32m[    0.327488] [0m[33mvgaarb: [0mloaded
+[32m[    0.327488] [0m[33mhpet: [0m3 channels of 0 reserved for per-cpu timers
+[32m[    0.327488] [0m[33mhpet0: [0mat MMIO 0xfed00000, IRQs 2, 8, 0
+[32m[    0.327488] [0m[33mhpet0: [0m3 comparators, 64-bit 100.000000 MHz counter
+[32m[    0.332365] [0m[33mclocksource: [0mSwitched to clocksource kvm-clock
+[32m[    0.333014] [0m[33mVFS: [0mDisk quotas dquot_6.6.0
+[32m[    0.333034] [0m[33mVFS: [0mDquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[32m[    0.333126] [0m[33mAppArmor: [0mAppArmor Filesystem Enabled
+[32m[    0.333137] [0m[33mpnp: [0mPnP ACPI init
+[32m[    0.333186] [0m[33mpnp 00:02: [0m[dma 2]
+[32m[    0.333359] [0m[33mpnp: [0mPnP ACPI: found 4 devices
+[32m[    0.339817] [0m[33mclocksource: [0macpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[32m[    0.339900] [0m[33mNET: [0mRegistered PF_INET protocol family
+[32m[    0.339939] [0m[33mIP idents hash table entries: [0m65536 (order: 7, 524288 bytes, linear)
+[32m[    0.349780] [0m[33mtcp_listen_portaddr_hash hash table entries: [0m2048 (order: 3, 32768 bytes, linear)
+[32m[    0.349793] [0m[33mTable-perturb hash table entries: [0m65536 (order: 6, 262144 bytes, linear)
+[32m[    0.349807] [0m[33mTCP established hash table entries: [0m32768 (order: 6, 262144 bytes, linear)
+[32m[    0.349846] [0m[33mTCP bind hash table entries: [0m32768 (order: 8, 1048576 bytes, linear)
+[32m[    0.349891] [0m[33mTCP: [0mHash tables configured (established 32768 bind 32768)
+[32m[    0.349941] [0m[33mMPTCP token hash table entries: [0m4096 (order: 4, 98304 bytes, linear)
+[32m[    0.349961] [0m[33mUDP hash table entries: [0m2048 (order: 4, 65536 bytes, linear)
+[32m[    0.349968] [0m[33mUDP-Lite hash table entries: [0m2048 (order: 4, 65536 bytes, linear)
+[32m[    0.350008] [0m[33mNET: [0mRegistered PF_UNIX/PF_LOCAL protocol family
+[32m[    0.350013] [0m[33mNET: [0mRegistered PF_XDP protocol family
+[32m[    0.350020] [0m[33mpci 0000:00:05.0: [0mPCI bridge to [bus 01]
+[32m[    0.350033] [0m[33mpci 0000:00:05.0: [0m  bridge window [io  0xe000-0xefff]
+[32m[    0.350369] [0m[33mpci 0000:00:05.0: [0m  bridge window [mem 0xfe800000-0xfe9fffff]
+[32m[    0.350655] [0m[33mpci 0000:00:05.0: [0m  bridge window [mem 0xc080000000-0xc09fffffff 64bit pref]
+[32m[    0.351114] [0m[33mpci 0000:00:1e.0: [0mPCI bridge to [bus 02]
+[32m[    0.351122] [0m[33mpci 0000:00:1e.0: [0m  bridge window [io  0xd000-0xdfff]
+[32m[    0.351417] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xfe600000-0xfe7fffff]
+[32m[    0.351644] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xc060000000-0xc07fffffff 64bit pref]
+[32m[    0.352020] [0m[33mpci 0000:00:1f.0: [0mPCI bridge to [bus 03]
+[32m[    0.352028] [0m[33mpci 0000:00:1f.0: [0m  bridge window [io  0xc000-0xcfff]
+[32m[    0.352322] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xfe400000-0xfe5fffff]
+[32m[    0.352517] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xc040000000-0xc05fffffff 64bit pref]
+[32m[    0.352921] [0m[33mpci_bus 0000:00: [0mresource 4 [io  0x0000-0x0cf7 window]
+[32m[    0.352924] [0m[33mpci_bus 0000:00: [0mresource 5 [io  0x0d00-0xffff window]
+[32m[    0.352926] [0m[33mpci_bus 0000:00: [0mresource 6 [mem 0x000a0000-0x000bffff window]
+[32m[    0.352928] [0m[33mpci_bus 0000:00: [0mresource 7 [mem 0xc0000000-0xfebfffff window]
+[32m[    0.352930] [0m[33mpci_bus 0000:00: [0mresource 8 [mem 0xc000000000-0xc0a000bfff window]
+[32m[    0.352932] [0m[33mpci_bus 0000:01: [0mresource 0 [io  0xe000-0xefff]
+[32m[    0.352934] [0m[33mpci_bus 0000:01: [0mresource 1 [mem 0xfe800000-0xfe9fffff]
+[32m[    0.352936] [0m[33mpci_bus 0000:01: [0mresource 2 [mem 0xc080000000-0xc09fffffff 64bit pref]
+[32m[    0.352938] [0m[33mpci_bus 0000:02: [0mresource 0 [io  0xd000-0xdfff]
+[32m[    0.352940] [0m[33mpci_bus 0000:02: [0mresource 1 [mem 0xfe600000-0xfe7fffff]
+[32m[    0.352942] [0m[33mpci_bus 0000:02: [0mresource 2 [mem 0xc060000000-0xc07fffffff 64bit pref]
+[32m[    0.352944] [0m[33mpci_bus 0000:03: [0mresource 0 [io  0xc000-0xcfff]
+[32m[    0.352945] [0m[33mpci_bus 0000:03: [0mresource 1 [mem 0xfe400000-0xfe5fffff]
+[32m[    0.352947] [0m[33mpci_bus 0000:03: [0mresource 2 [mem 0xc040000000-0xc05fffffff 64bit pref]
+[32m[    0.353000] [0m[33mpci 0000:00:01.0: [0mPIIX3: Enabling Passive Release
+[32m[    0.353008] [0m[33mpci 0000:00:00.0: [0mLimiting direct PCI/PCI transfers
+[32m[    0.363232] [0m[33mACPI: [0m\_SB_.LNKD: Enabled at IRQ 11
+[32m[    0.373497] [0m[33mpci 0000:00:01.2: [0mquirk_usb_early_handoff+0x0/0x190 took 19991 usecs
+[32m[    0.373561] [0m[33mPCI: [0mCLS 0 bytes, default 64
+[32m[    0.373591] [0m[33mPCI-DMA: [0mUsing software bounce buffering for IO (SWIOTLB)
+[32m[    0.373592] [0m[33msoftware IO TLB: [0mmapped [mem 0x00000000bbfda000-0x00000000bffda000] (64MB)
+[32m[    0.373638] [0mTrying to unpack rootfs image as initramfs...
+[32m[    0.373832] [0mInitialise system trusted keyrings
+[32m[    0.373841] [0mKey type blacklist registered
+[32m[    0.373870] [0m[33mworkingset: [0mtimestamp_bits=36 max_order=20 bucket_order=0
+[32m[    0.373876] [0m[33mzbud: [0mloaded
+[32m[    0.374583] [0m[33msquashfs: [0mversion 4.0 (2009/01/31) Phillip Lougher
+[32m[    0.374880] [0m[33mfuse: [0minit (API version 7.39)
+[32m[    0.374990] [0m[33mintegrity: [0mPlatform Keyring initialized
+[32m[    0.374995] [0m[33mintegrity: [0mMachine keyring initialized
+[32m[    0.381859] [0mKey type asymmetric registered
+[32m[    0.381861] [0mAsymmetric key parser 'x509' registered
+[32m[    0.381872] [0mBlock layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+[32m[    0.381928] [0mio scheduler mq-deadline registered
+[32m[    0.383812] [0m[33mshpchp 0000:00:05.0: [0mRequesting control of SHPC hotplug via OSHP (\_SB_.PCI0.S28_)
+[32m[    0.383820] [0m[33mshpchp 0000:00:05.0: [0mRequesting control of SHPC hotplug via OSHP (\_SB_.PCI0)
+[32m[    0.383824] [0m[33mshpchp 0000:00:05.0: [0mCannot get control of SHPC hotplug
+[32m[    0.383856] [0m[33mshpchp 0000:00:1e.0: [0mRequesting control of SHPC hotplug via OSHP (\_SB_.PCI0.SF0_)
+[32m[    0.383860] [0m[33mshpchp 0000:00:1e.0: [0mRequesting control of SHPC hotplug via OSHP (\_SB_.PCI0)
+[32m[    0.383864] [0m[33mshpchp 0000:00:1e.0: [0mCannot get control of SHPC hotplug
+[32m[    0.383894] [0m[33mshpchp 0000:00:1f.0: [0mRequesting control of SHPC hotplug via OSHP (\_SB_.PCI0.SF8_)
+[32m[    0.383899] [0m[33mshpchp 0000:00:1f.0: [0mRequesting control of SHPC hotplug via OSHP (\_SB_.PCI0)
+[32m[    0.383902] [0m[33mshpchp 0000:00:1f.0: [0mCannot get control of SHPC hotplug
+[32m[    0.383907] [0m[33mshpchp: [0mStandard Hot Plug PCI Controller Driver version: 0.4
+[32m[    0.384003] [0m[33minput: [0mPower Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[32m[    0.384053] [0m[33mACPI: [0mbutton: Power Button [PWRF]
+[32m[    0.394670] [0m[33mACPI: [0m\_SB_.LNKC: Enabled at IRQ 10
+[32m[    0.416359] [0m[33mACPI: [0m\_SB_.LNKB: Enabled at IRQ 10
+[32m[    0.427177] [0m[33mACPI: [0m\_SB_.LNKA: Enabled at IRQ 11
+[32m[    0.438644] [0mFree page reporting enabled
+[32m[    0.438716] [0m[33mSerial: [0m8250/16550 driver, 32 ports, IRQ sharing enabled
+[32m[    0.446448] [0mLinux agpgart interface v0.103
+[32m[    0.447288] [0m[33mloop: [0mmodule loaded
+[32m[    0.447475] [0m[33mvirtio_scsi virtio3: [0m2/0/0 default/read/poll queues
+[32m[    0.448050] [0m[33mscsi host0: [0mVirtio SCSI HBA
+[32m[    0.448578] [0m[33mata_piix 0000:00:01.1: [0mversion 2.13
+[32m[    0.448601] [0m[33mscsi 0:0:0:0: [0mDirect-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+[32m[    0.449357] [0m[33mscsi host1: [0mata_piix
+[32m[    0.449457] [0m[33mscsi host2: [0mata_piix
+[32m[    0.449474] [0m[33mata1: [0mPATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xf0c0 irq 14 lpm-pol 0
+[32m[    0.449477] [0m[33mata2: [0mPATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xf0c8 irq 15 lpm-pol 0
+[32m[    0.449580] [0m[33mACPI: [0mbus type drm_connector registered
+[32m[    0.449748] [0m[33mtun: [0mUniversal TUN/TAP device driver, 1.6
+[32m[    0.450863] [0mPPP generic driver version 2.4.2
+[32m[    0.460722] [0m[33mscsi 0:0:0:0: [0mAttached scsi generic sg0 type 0
+[32m[    0.460777] [0m[33msd 0:0:0:0: [0m[1mPower-on or device reset occurred[0m
+[32m[    0.460812] [0m[33msd 0:0:0:0: [0m[sda] 67108864 512-byte logical blocks: (34.4 GB/32.0 GiB)
+[32m[    0.460829] [0m[33msd 0:0:0:0: [0m[sda] Write Protect is off
+[32m[    0.460831] [0m[33msd 0:0:0:0: [0m[sda] Mode Sense: 63 00 00 08
+[32m[    0.460856] [0m[33msd 0:0:0:0: [0m[sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[32m[    0.465881] [0m[33mFreeing initrd memory: [0m67140K
+[32m[    0.466429] [0m[33muhci_hcd 0000:00:01.2: [0mUHCI Host Controller
+[32m[    0.466436] [0m[33muhci_hcd 0000:00:01.2: [0mnew USB bus registered, assigned bus number 1
+[32m[    0.466447] [0m[33muhci_hcd 0000:00:01.2: [0mdetected 2 ports
+[32m[    0.466510] [0m[33muhci_hcd 0000:00:01.2: [0mirq 11, io port 0x0000f080
+[32m[    0.466575] [0m[33musb usb1: [0mNew USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.08
+[32m[    0.466578] [0m[33musb usb1: [0mNew USB device strings: Mfr=3, Product=2, SerialNumber=1
+[32m[    0.466581] [0m[33musb usb1: [0mProduct: UHCI Host Controller
+[32m[    0.466583] [0m[33musb usb1: [0mManufacturer: Linux 6.8.0-55-generic uhci_hcd
+[32m[    0.466584] [0m[33musb usb1: [0mSerialNumber: 0000:00:01.2
+[32m[    0.466639] [0m[33mhub 1-0:1.0: [0mUSB hub found
+[32m[    0.466643] [0m[33mhub 1-0:1.0: [0m2 ports detected
+[32m[    0.466760] [0m[33mi8042: [0mPNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+[32m[    0.467320] [0m[33mserio: [0mi8042 KBD port at 0x60,0x64 irq 1
+[32m[    0.467325] [0m[33mserio: [0mi8042 AUX port at 0x60,0x64 irq 12
+[32m[    0.467383] [0m[33mmousedev: [0mPS/2 mouse device common for all mice
+[32m[    0.467436] [0m[33mrtc_cmos 00:03: [0mRTC can wake from S4
+[32m[    0.467822] [0m[33minput: [0mAT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+[32m[    0.467979] [0m[33mrtc_cmos 00:03: [0mregistered as rtc0
+[32m[    0.468018] [0m[33mrtc_cmos 00:03: [0msetting system clock to 2025-03-12T19:59:12 UTC (1741809552)
+[32m[    0.468057] [0m[33mrtc_cmos 00:03: [0malarms up to one day, y3k, 242 bytes nvram, hpet irqs
+[32m[    0.468064] [0m[33mi2c_dev: [0mi2c /dev entries driver
+[32m[    0.468075] [0m[33mdevice-mapper: [0m[1mcore: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.[0m
+[32m[    0.468092] [0m[33mdevice-mapper: [0muevent: version 1.0.3
+[32m[    0.468123] [0m[33mdevice-mapper: [0mioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+[32m[    0.468136] [0m[33mplatform eisa.0: [0mProbing EISA bus 0
+[32m[    0.468138] [0m[33mplatform eisa.0: [0m[1mEISA: Cannot allocate resource for mainboard[0m
+[32m[    0.468140] [0m[33mplatform eisa.0: [0m[1mCannot allocate resource for EISA slot 1[0m
+[32m[    0.468142] [0m[33mplatform eisa.0: [0m[1mCannot allocate resource for EISA slot 2[0m
+[32m[    0.468144] [0m[33mplatform eisa.0: [0m[1mCannot allocate resource for EISA slot 3[0m
+[32m[    0.468145] [0m[33mplatform eisa.0: [0m[1mCannot allocate resource for EISA slot 4[0m
+[32m[    0.468147] [0m[33mplatform eisa.0: [0m[1mCannot allocate resource for EISA slot 5[0m
+[32m[    0.468148] [0m[33mplatform eisa.0: [0m[1mCannot allocate resource for EISA slot 6[0m
+[32m[    0.468150] [0m[33mplatform eisa.0: [0m[1mCannot allocate resource for EISA slot 7[0m
+[32m[    0.468152] [0m[33mplatform eisa.0: [0m[1mCannot allocate resource for EISA slot 8[0m
+[32m[    0.468153] [0m[33mplatform eisa.0: [0mEISA: Detected 0 cards
+[32m[    0.468155] [0m[33mamd_pstate: [0m[1mthe _CPC object is not present in SBIOS or ACPI disabled[0m
+[32m[    0.468182] [0m[33mledtrig-cpu: [0mregistered to indicate activity on CPUs
+[32m[    0.468288] [0m[drm] Initialized simpledrm 1.0.0 20200625 for simple-framebuffer.0 on minor 0
+[32m[    0.470184] [0m[33mConsole: [0mswitching to colour frame buffer device 100x37
+[32m[    0.470644] [0m[33m sda: [0msda1 sda2 sda3
+[32m[    0.470736] [0m[33msd 0:0:0:0: [0m[sda] Attached SCSI disk
+[32m[    0.471718] [0m[33msimple-framebuffer simple-framebuffer.0: [0m[drm] fb0: simpledrmdrmfb frame buffer device
+[32m[    0.471825] [0m[33mdrop_monitor: [0mInitializing network drop monitor service
+[32m[    0.471969] [0m[33mNET: [0mRegistered PF_INET6 protocol family
+[32m[    0.475361] [0mSegment Routing with IPv6
+[32m[    0.475386] [0mIn-situ OAM (IOAM) with IPv6
+[32m[    0.475414] [0m[33mNET: [0mRegistered PF_PACKET protocol family
+[32m[    0.475477] [0mKey type dns_resolver registered
+[32m[    0.475648] [0m[33mIPI shorthand broadcast: [0menabled
+[32m[    0.476546] [0m[33msched_clock: [0mMarking stable (475005255, 687282)->(478227772, -2535235)
+[32m[    0.477423] [0mregistered taskstats version 1
+[32m[    0.478362] [0mLoading compiled-in X.509 certificates
+[32m[    0.479424] [0m[33mLoaded X.509 cert 'Build time autogenerated kernel key: [0me0bedf6fa049a1e09bd65ebab3904f14cdd5bc68'
+[32m[    0.480952] [0m[33mLoaded X.509 cert 'Canonical Ltd. Live Patch Signing: [0m14df34d1a87cf37625abec039ef2bf521249b969'
+[32m[    0.482494] [0m[33mLoaded X.509 cert 'Canonical Ltd. Kernel Module Signing: [0m88f752e560a1e0737e31163a466ad7b70a850c19'
+[32m[    0.483655] [0m[33mblacklist: [0mLoading compiled-in revocation X.509 certificates
+[32m[    0.484499] [0m[33mLoaded X.509 cert 'Canonical Ltd. Secure Boot Signing: [0m61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+[32m[    0.485928] [0m[33mLoaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): [0m242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+[32m[    0.487423] [0m[33mLoaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): [0m365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+[32m[    0.488921] [0m[33mLoaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): [0mc0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+[32m[    0.490813] [0m[33mLoaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): [0ma8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+[32m[    0.492580] [0m[33mLoaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): [0m4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+[32m[    0.494369] [0m[33mLoaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): [0m100437bb6de6e469b581e61cd66bce3ef4ed53af'
+[32m[    0.496020] [0m[33mLoaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): [0mc1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+[32m[    0.499973] [0mKey type .fscrypt registered
+[32m[    0.500999] [0mKey type fscrypt-provisioning registered
+[32m[    0.504940] [0m[33mcryptd: [0mmax_cpu_qlen set to 1000
+[32m[    0.603932] [0m[33mata2: [0mfound unknown device (class 0)
+[32m[    0.605481] [0m[33mata2.00: [0mATAPI: QEMU DVD-ROM, 2.5+, max UDMA/100
+[32m[    0.607358] [0m[33mscsi 2:0:0:0: [0mCD-ROM            QEMU     QEMU DVD-ROM     2.5+ PQ: 0 ANSI: 5
+[32m[    0.623103] [0m[33msr 2:0:0:0: [0m[sr0] scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+[32m[    0.624026] [0m[33mcdrom: [0mUniform CD-ROM driver Revision: 3.20
+[32m[    0.631158] [0m[33msr 2:0:0:0: [0mAttached scsi CD-ROM sr0
+[32m[    0.631374] [0m[33msr 2:0:0:0: [0mAttached scsi generic sg1 type 5
+[32m[    0.635481] [0mSSE version of gcm_enc/dec engaged.
+[32m[    0.643825] [0mKey type encrypted registered
+[32m[    0.644814] [0m[33mAppArmor: [0mAppArmor sha256 policy hashing enabled
+[32m[    0.645710] [0m[33mima: [0mNo TPM chip found, activating TPM-bypass!
+[32m[    0.646713] [0mLoading compiled-in module X.509 certificates
+[32m[    0.648002] [0m[33mLoaded X.509 cert 'Build time autogenerated kernel key: [0me0bedf6fa049a1e09bd65ebab3904f14cdd5bc68'
+[32m[    0.649761] [0m[33mima: [0mAllocated hash algorithm: sha256
+[32m[    0.650706] [0m[33mima: [0mNo architecture policies found
+[32m[    0.651671] [0m[33mevm: [0mInitialising EVM extended attributes:
+[32m[    0.652440] [0m[33mevm: [0msecurity.selinux
+[32m[    0.653186] [0m[33mevm: [0msecurity.SMACK64
+[32m[    0.653910] [0m[33mevm: [0msecurity.SMACK64EXEC
+[32m[    0.654608] [0m[33mevm: [0msecurity.SMACK64TRANSMUTE
+[32m[    0.655293] [0m[33mevm: [0msecurity.SMACK64MMAP
+[32m[    0.655953] [0m[33mevm: [0msecurity.apparmor
+[32m[    0.656582] [0m[33mevm: [0msecurity.ima
+[32m[    0.657193] [0m[33mevm: [0msecurity.capability
+[32m[    0.657786] [0m[33mevm: [0mHMAC attrs: 0x1
+[32m[    0.658633] [0m[33mPM: [0m  Magic number: 1:342:1001
+[32m[    0.659538] [0m[33mblock sda3: [0mhash matches
+[32m[    0.660147] [0m[33mrtc_cmos 00:03: [0mhash matches
+[32m[    0.660943] [0m[33mpowernow_k8: [0mPower state transitions not supported
+[32m[    0.661479] [0m[33mpowernow_k8: [0mPower state transitions not supported
+[32m[    0.664473] [0m[33mRAS: [0mCorrectable Errors collector initialized.
+[32m[    0.665180] [0m[33mclk: [0mDisabling unused clocks
+[32m[    0.667233] [0m[33mFreeing unused decrypted memory: [0m2028K
+[32m[    0.669138] [0m[33mFreeing unused kernel image (initmem) memory: [0m4988K
+[32m[    0.669941] [0m[33mWrite protecting the kernel read-only data: [0m38912k
+[32m[    0.671006] [0m[33mFreeing unused kernel image (rodata/data gap) memory: [0m2040K
+[32m[    0.685710] [0m[33musb 1-1: [0mnew full-speed USB device number 2 using uhci_hcd
+[32m[    0.699888] [0m[33mx86/mm: [0mChecked W+X mappings: passed, no W+X pages found.
+[32m[    0.700571] [0mRun /init as init process
+[32m[    0.701057] [0m  with arguments:
+[32m[    0.701057] [0m    /init
+[32m[    0.701058] [0m  with environment:
+[32m[    0.701059] [0m    HOME=/
+[32m[    0.701059] [0m    TERM=linux
+[32m[    0.701060] [0m    BOOT_IMAGE=/vmlinuz-6.8.0-55-generic
+[32m[    0.761832] [0m[33mvirtio_net virtio2 ens18: [0mrenamed from eth0
+[32m[    0.764628] [0m[33mConsole: [0mswitching to colour dummy device 80x25
+[32m[    0.764665] [0m[33minput: [0mVirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input4
+[32m[    0.764998] [0m[33minput: [0mVirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+[32m[    0.765915] [0m[33mbochs-drm 0000:00:02.0: [0mvgaarb: deactivate vga console
+[32m[    0.765968] [0m[drm] Found bochs VGA, ID 0xb0c5.
+[32m[    0.765970] [0m[drm] Framebuffer size 16384 kB @ 0xfd000000, mmio @ 0xfea50000.
+[32m[    0.766930] [0m[drm] Found EDID data blob.
+[32m[    0.768046] [0mFDC 0 is a S82078B
+[32m[    0.768345] [0m[drm] Initialized bochs-drm 1.0.0 20130925 for 0000:00:02.0 on minor 0
+[32m[    0.769727] [0m[33mfbcon: [0mbochs-drmdrmfb (fb0) is primary device
+[32m[    0.823258] [0m[33mConsole: [0mswitching to colour frame buffer device 160x50
+[32m[    0.824730] [0m[33mbochs-drm 0000:00:02.0: [0m[drm] fb0: bochs-drmdrmfb frame buffer device
+[32m[    0.875239] [0m[33musb 1-1: [0mNew USB device found, idVendor=0627, idProduct=0001, bcdDevice= 0.00
+[32m[    0.875268] [0m[33musb 1-1: [0mNew USB device strings: Mfr=1, Product=3, SerialNumber=10
+[32m[    0.875280] [0m[33musb 1-1: [0mProduct: QEMU USB Tablet
+[32m[    0.875288] [0m[33musb 1-1: [0mManufacturer: QEMU
+[32m[    0.875295] [0m[33musb 1-1: [0mSerialNumber: 28754-0000:00:01.2-1
+[32m[    0.889121] [0m[33mhid: [0mraw HID events driver (C) Jiri Kosina
+[32m[    0.895346] [0m[33musbcore: [0mregistered new interface driver usbhid
+[32m[    0.895358] [0m[33musbhid: [0mUSB HID core driver
+[32m[    0.898879] [0m[33minput: [0mQEMU QEMU USB Tablet as /devices/pci0000:00/0000:00:01.2/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input5
+[32m[    0.899538] [0m[33mhid-generic 0003:0627:0001.0001: [0minput,hidraw0: USB HID v0.01 Mouse [QEMU QEMU USB Tablet] on usb-0000:00:01.2-1/input0
+[32m[    1.180711] [0m[33mrandom: [0mcrng init done
+[32m[    1.370693] [0m[33mraid6: [0msse2x4   gen() 17652 MB/s
+[32m[    1.387703] [0m[33mraid6: [0msse2x2   gen()  5479 MB/s
+[32m[    1.404717] [0m[33mraid6: [0msse2x1   gen()  1141 MB/s
+[32m[    1.404749] [0m[33mraid6: [0musing algorithm sse2x4 gen() 17652 MB/s
+[32m[    1.421698] [0m[33mraid6: [0m.... xor() 5302 MB/s, rmw enabled
+[32m[    1.421721] [0m[33mraid6: [0musing ssse3x2 recovery algorithm
+[32m[    1.423246] [0m[33mxor: [0mmeasuring software checksum speed
+[32m[    1.423392] [0m[33m   prefetch64-sse  : [0m24797 MB/sec
+[32m[    1.423551] [0m[33m   generic_sse     : [0m21939 MB/sec
+[32m[    1.423559] [0m[33mxor: [0musing function: prefetch64-sse (24797 MB/sec)
+[32m[    1.424411] [0m[33masync_tx: [0mapi initialized (async)
+[32m[    1.442695] [0m[33mworkqueue: [0m[1mdrm_fb_helper_damage_work hogged CPU for >10000us 4 times, consider switching to WQ_UNBOUND[0m
+[32m[    1.548127] [0mBtrfs loaded, zoned=yes, fsverity=yes
+[32m[    1.794696] [0m[33mworkqueue: [0m[1mdrm_fb_helper_damage_work hogged CPU for >10000us 8 times, consider switching to WQ_UNBOUND[0m
+[32m[    1.855716] [0m[33mEXT4-fs (dm-0): [0mmounted filesystem 78dfc1ab-05ce-40b9-a2f8-2f3e03168145 ro with ordered data mode. Quota mode: none.
+[32m[    3.064078] [0m[33msystemd[1]: [0mInserted module 'autofs4'
+[32m[    3.261323] [0m[33msystemd[1]: [0msystemd 255.4-1ubuntu8.5 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+[32m[    3.262454] [0m[33msystemd[1]: [0mDetected virtualization kvm.
+[32m[    3.262750] [0m[33msystemd[1]: [0mDetected architecture x86-64.
+[32m[    3.269360] [0m[33msystemd[1]: [0mNo hostname configured, using default hostname.
+[32m[    3.269908] [0m[33msystemd[1]: [0mHostname set to <localhost>.
+[32m[    4.312027] [0m[33msystemd[1]: [0mQueued start job for default target graphical.target.
+[32m[    4.364436] [0m[33msystemd[1]: [0mCreated slice system-modprobe.slice - Slice /system/modprobe.
+[32m[    4.365396] [0m[33msystemd[1]: [0mCreated slice system-systemd\x2dfsck.slice - Slice /system/systemd-fsck.
+[32m[    4.366105] [0m[33msystemd[1]: [0mCreated slice user.slice - User and Session Slice.
+[32m[    4.366680] [0m[33msystemd[1]: [0mStarted systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+[32m[    4.367339] [0m[33msystemd[1]: [0mSet up automount proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point.
+[32m[    4.367899] [0m[33msystemd[1]: [0mExpecting device dev-disk-by\x2duuid-c3f8f018\x2df5f7\x2d4a5d\x2d92a1\x2d12ee87108672.device - /dev/disk/by-uuid/c3f8f018-f5f7-4a5d-92a1-12ee87108672...
+[32m[    4.368697] [0m[33msystemd[1]: [0mReached target integritysetup.target - Local Integrity Protected Volumes.
+[32m[    4.369256] [0m[33msystemd[1]: [0mReached target slices.target - Slice Units.
+[32m[    4.369811] [0m[33msystemd[1]: [0mReached target snapd.mounts-pre.target - Mounting snaps.
+[32m[    4.370410] [0m[33msystemd[1]: [0mReached target snapd.mounts.target - Mounted snaps.
+[32m[    4.371001] [0m[33msystemd[1]: [0mReached target veritysetup.target - Local Verity Protected Volumes.
+[32m[    4.371628] [0m[33msystemd[1]: [0mListening on dm-event.socket - Device-mapper event daemon FIFOs.
+[32m[    4.372387] [0m[33msystemd[1]: [0mListening on lvm2-lvmpolld.socket - LVM2 poll daemon socket.
+[32m[    4.373021] [0m[33msystemd[1]: [0mListening on multipathd.socket - multipathd control socket.
+[32m[    4.373663] [0m[33msystemd[1]: [0mListening on syslog.socket - Syslog Socket.
+[32m[    4.374289] [0m[33msystemd[1]: [0mListening on systemd-fsckd.socket - fsck to fsckd communication Socket.
+[32m[    4.374882] [0m[33msystemd[1]: [0mListening on systemd-initctl.socket - initctl Compatibility Named Pipe.
+[32m[    4.375486] [0m[33msystemd[1]: [0mListening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+[32m[    4.376118] [0m[33msystemd[1]: [0mListening on systemd-journald.socket - Journal Socket.
+[32m[    4.376760] [0m[33msystemd[1]: [0mListening on systemd-networkd.socket - Network Service Netlink Socket.
+[32m[    4.377317] [0m[33msystemd[1]: [0msystemd-pcrextend.socket - TPM2 PCR Extension (Varlink) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+[32m[    4.377922] [0m[33msystemd[1]: [0mListening on systemd-udevd-control.socket - udev Control Socket.
+[32m[    4.378541] [0m[33msystemd[1]: [0mListening on systemd-udevd-kernel.socket - udev Kernel Socket.
+[32m[    4.383774] [0m[33msystemd[1]: [0mMounting dev-hugepages.mount - Huge Pages File System...
+[32m[    4.385678] [0m[33msystemd[1]: [0mMounting dev-mqueue.mount - POSIX Message Queue File System...
+[32m[    4.388201] [0m[33msystemd[1]: [0mMounting sys-kernel-debug.mount - Kernel Debug File System...
+[32m[    4.393035] [0m[33msystemd[1]: [0mMounting sys-kernel-tracing.mount - Kernel Trace File System...
+[32m[    4.397327] [0m[33msystemd[1]: [0mStarting systemd-journald.service - Journal Service...
+[32m[    4.443347] [0m[33msystemd-journald[307]: [0mCollecting audit messages is disabled.
+[32m[    4.464433] [0m[33msystemd[1]: [0mStarting keyboard-setup.service - Set the console keyboard layout...
+[32m[    4.467797] [0m[33msystemd[1]: [0mStarting kmod-static-nodes.service - Create List of Static Device Nodes...
+[32m[    4.469339] [0m[33msystemd[1]: [0mStarting lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[32m[    4.478525] [0m[33msystemd[1]: [0mStarting modprobe@configfs.service - Load Kernel Module configfs...
+[32m[    4.485610] [0m[33msystemd[1]: [0mStarting modprobe@dm_mod.service - Load Kernel Module dm_mod...
+[32m[    4.490269] [0m[33msystemd[1]: [0mStarting modprobe@drm.service - Load Kernel Module drm...
+[32m[    4.496867] [0m[33msystemd[1]: [0mStarting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+[32m[    4.500479] [0m[33msystemd[1]: [0mStarting modprobe@fuse.service - Load Kernel Module fuse...
+[32m[    4.506085] [0m[33msystemd[1]: [0mStarting modprobe@loop.service - Load Kernel Module loop...
+[32m[    4.507699] [0m[33msystemd[1]: [0mnetplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup was skipped because of an unmet condition check (ConditionFileIsExecutable=/usr/bin/ovs-vsctl).
+[32m[    4.508344] [0m[33msystemd[1]: [0msystemd-fsck-root.service - File System Check on Root Device was skipped because of an unmet condition check (ConditionPathExists=!/run/initramfs/fsck-root).
+[32m[    4.535894] [0m[33msystemd[1]: [0mStarting systemd-modules-load.service - Load Kernel Modules...
+[32m[    4.537724] [0m[33msystemd[1]: [0msystemd-pcrmachine.service - TPM2 PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+[32m[    4.542179] [0m[33msystemd[1]: [0mStarting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+[32m[    4.544701] [0m[33mworkqueue: [0m[1mdrm_fb_helper_damage_work hogged CPU for >10000us 16 times, consider switching to WQ_UNBOUND[0m
+[32m[    4.551558] [0m[33msystemd[1]: [0msystemd-tpm2-setup-early.service - TPM2 SRK Setup (Early) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+[32m[    4.557135] [0m[33msystemd[1]: [0mStarting systemd-udev-trigger.service - Coldplug All udev Devices...
+[32m[    4.567139] [0m[33msystemd[1]: [0mStarted systemd-journald.service - Journal Service.
+[32m[    5.035600] [0m[33mEXT4-fs (dm-0): [0mre-mounted 78dfc1ab-05ce-40b9-a2f8-2f3e03168145 r/w. Quota mode: none.
+[32m[    5.063539] [0mAdding 3261436k swap on /swap.img.  Priority:-2 extents:7 across:5735424k 
+[32m[    5.151531] [0m[33msystemd-journald[307]: [0mReceived client request to flush runtime journal.
+[32m[    5.585027] [0m[33mpiix4_smbus 0000:00:01.3: [0mSMBus Host Controller at 0x700, revision 0
+[32m[    6.614699] [0m[33mworkqueue: [0m[1mdrm_fb_helper_damage_work hogged CPU for >10000us 32 times, consider switching to WQ_UNBOUND[0m
+[32m[    6.788185] [0m[33msystemd-journald[307]: [0m/var/log/journal/560b026a44d3424ea490d29e1a7e2775/system.journal: Journal file uses a different sequence number ID, rotating.
+[32m[    6.788190] [0m[33msystemd-journald[307]: [0mRotating system journal.
+[32m[    6.862885] [0m[33mEXT4-fs (sda2): [0mmounted filesystem c3f8f018-f5f7-4a5d-92a1-12ee87108672 r/w with ordered data mode. Quota mode: none.
+[32m[    7.368969] [0m[33mcfg80211: [0mLoading compiled-in X.509 certificates for regulatory database
+[32m[    7.369156] [0m[33mLoaded X.509 cert 'sforshee: [0m00b28ddf47aef9cea7'
+[32m[    7.369259] [0m[33mLoaded X.509 cert 'wens: [0m61c038651aabdcf94bd0ac7ff06c7248db18c600'
+[32m[    7.584799] [0m[33maudit: [0mtype=1400 audit(1741809559.615:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=545 comm="apparmor_parser"
+[32m[    7.584940] [0m[33maudit: [0mtype=1400 audit(1741809559.616:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=544 comm="apparmor_parser"
+[32m[    7.590851] [0m[33maudit: [0mtype=1400 audit(1741809559.622:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=547 comm="apparmor_parser"
+[32m[    7.591404] [0m[33maudit: [0mtype=1400 audit(1741809559.622:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=548 comm="apparmor_parser"
+[32m[    7.620831] [0m[33maudit: [0mtype=1400 audit(1741809559.652:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="balena-etcher" pid=549 comm="apparmor_parser"
+[32m[    7.629995] [0m[33maudit: [0mtype=1400 audit(1741809559.661:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="brave" pid=550 comm="apparmor_parser"
+[32m[    7.637717] [0m[33maudit: [0mtype=1400 audit(1741809559.669:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="buildah" pid=551 comm="apparmor_parser"
+[32m[    7.656477] [0m[33maudit: [0mtype=1400 audit(1741809559.687:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="busybox" pid=552 comm="apparmor_parser"
+[32m[    7.665502] [0m[33maudit: [0mtype=1400 audit(1741809559.696:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="cam" pid=553 comm="apparmor_parser"
+[32m[    7.799725] [0m[33maudit: [0mtype=1400 audit(1741809559.831:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ch-checkns" pid=554 comm="apparmor_parser"
+[32m[   12.643258] [0m[33mNET: [0mRegistered PF_QIPCRTR protocol family
+[32m[   12.773039] [0m[33mloop0: [0mdetected capacity change from 0 to 8
+[32m[   13.185377] [0m[33mkauditd_printk_skb: [0m[1m110 callbacks suppressed[0m
+[32m[   13.185379] [0m[33maudit: [0mtype=1400 audit(1741809565.216:122): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=814 comm="apparmor_parser"
+[32m[   13.189454] [0m[33maudit: [0mtype=1400 audit(1741809565.220:123): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=814 comm="apparmor_parser"
+[32m[   13.912695] [0m[33mworkqueue: [0m[1mdrm_fb_helper_damage_work hogged CPU for >10000us 64 times, consider switching to WQ_UNBOUND[0m
+[32m[13019.556064] [0m[33mpci 0000:00:12.0: [0m[8086:100e] type 00 class 0x020000 conventional PCI endpoint
+[32m[13019.556442] [0m[33mpci 0000:00:12.0: [0mBAR 0 [mem 0x00000000-0x0001ffff]
+[32m[13019.556585] [0m[33mpci 0000:00:12.0: [0mBAR 1 [io  0x0000-0x003f]
+[32m[13019.556712] [0m[33mpci 0000:00:12.0: [0mROM [mem 0x00000000-0x0003ffff pref]
+[32m[13019.557370] [0m[33mpci 0000:00:12.0: [0mROM [mem 0xc0000000-0xc003ffff pref]: assigned
+[32m[13019.557373] [0m[33mpci 0000:00:12.0: [0mBAR 0 [mem 0xc0040000-0xc005ffff]: assigned
+[32m[13019.557401] [0m[33mpci 0000:00:12.0: [0mBAR 1 [io  0x1000-0x103f]: assigned
+[32m[13019.557425] [0m[33mpci 0000:00:1e.0: [0mPCI bridge to [bus 02]
+[32m[13019.557444] [0m[33mpci 0000:00:1e.0: [0m  bridge window [io  0xd000-0xdfff]
+[32m[13019.558251] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xfe600000-0xfe7fffff]
+[32m[13019.558668] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xc060000000-0xc07fffffff 64bit pref]
+[32m[13019.559599] [0m[33mpci 0000:00:1f.0: [0mPCI bridge to [bus 03]
+[32m[13019.559618] [0m[33mpci 0000:00:1f.0: [0m  bridge window [io  0xc000-0xcfff]
+[32m[13019.560336] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xfe400000-0xfe5fffff]
+[32m[13019.560807] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xc040000000-0xc05fffffff 64bit pref]
+[32m[13019.561865] [0m[33mpci 0000:00:1e.0: [0mPCI bridge to [bus 02]
+[32m[13019.561886] [0m[33mpci 0000:00:1e.0: [0m  bridge window [io  0xd000-0xdfff]
+[32m[13019.562623] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xfe600000-0xfe7fffff]
+[32m[13019.563079] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xc060000000-0xc07fffffff 64bit pref]
+[32m[13019.564055] [0m[33mpci 0000:00:1f.0: [0mPCI bridge to [bus 03]
+[32m[13019.564067] [0m[33mpci 0000:00:1f.0: [0m  bridge window [io  0xc000-0xcfff]
+[32m[13019.564744] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xfe400000-0xfe5fffff]
+[32m[13019.565171] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xc040000000-0xc05fffffff 64bit pref]
+[32m[13019.566938] [0m[33mpci 0000:00:1e.0: [0mPCI bridge to [bus 02]
+[32m[13019.566952] [0m[33mpci 0000:00:1e.0: [0m  bridge window [io  0xd000-0xdfff]
+[32m[13019.567010] [0m[33me1000: [0mIntel(R) PRO/1000 Network Driver
+[32m[13019.567012] [0m[33me1000: [0mCopyright (c) 1999-2006 Intel Corporation.
+[32m[13019.567118] [0m[33me1000 0000:00:12.0: [0menabling device (0000 -> 0003)
+[32m[13019.567973] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xfe600000-0xfe7fffff]
+[32m[13019.568232] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xc060000000-0xc07fffffff 64bit pref]
+[32m[13019.568715] [0m[33mpci 0000:00:1f.0: [0mPCI bridge to [bus 03]
+[32m[13019.568740] [0m[33mpci 0000:00:1f.0: [0m  bridge window [io  0xc000-0xcfff]
+[32m[13019.569121] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xfe400000-0xfe5fffff]
+[32m[13019.569413] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xc040000000-0xc05fffffff 64bit pref]
+[32m[13019.582450] [0m[33mpci 0000:00:1e.0: [0mPCI bridge to [bus 02]
+[32m[13019.582459] [0m[33mpci 0000:00:1e.0: [0m  bridge window [io  0xd000-0xdfff]
+[32m[13019.583234] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xfe600000-0xfe7fffff]
+[32m[13019.583612] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xc060000000-0xc07fffffff 64bit pref]
+[32m[13019.584081] [0m[33mpci 0000:00:1f.0: [0mPCI bridge to [bus 03]
+[32m[13019.584092] [0m[33mpci 0000:00:1f.0: [0m  bridge window [io  0xc000-0xcfff]
+[32m[13019.584429] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xfe400000-0xfe5fffff]
+[32m[13019.584695] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xc040000000-0xc05fffffff 64bit pref]
+[32m[13019.591508] [0m[33mpci_bus 0000:01: [0mAllocating resources
+[32m[13019.591522] [0m[33mpci 0000:00:1e.0: [0mPCI bridge to [bus 02]
+[32m[13019.591527] [0m[33mpci 0000:00:1e.0: [0m  bridge window [io  0xd000-0xdfff]
+[32m[13019.591861] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xfe600000-0xfe7fffff]
+[32m[13019.592086] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xc060000000-0xc07fffffff 64bit pref]
+[32m[13019.592523] [0m[33mpci 0000:00:1f.0: [0mPCI bridge to [bus 03]
+[32m[13019.592529] [0m[33mpci 0000:00:1f.0: [0m  bridge window [io  0xc000-0xcfff]
+[32m[13019.592843] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xfe400000-0xfe5fffff]
+[32m[13019.593051] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xc040000000-0xc05fffffff 64bit pref]
+[32m[13019.593571] [0m[33mpci 0000:00:1e.0: [0mPCI bridge to [bus 02]
+[32m[13019.593577] [0m[33mpci 0000:00:1e.0: [0m  bridge window [io  0xd000-0xdfff]
+[32m[13019.593944] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xfe600000-0xfe7fffff]
+[32m[13019.594359] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xc060000000-0xc07fffffff 64bit pref]
+[32m[13019.595145] [0m[33mpci 0000:00:1f.0: [0mPCI bridge to [bus 03]
+[32m[13019.595151] [0m[33mpci 0000:00:1f.0: [0m  bridge window [io  0xc000-0xcfff]
+[32m[13019.595785] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xfe400000-0xfe5fffff]
+[32m[13019.596200] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xc040000000-0xc05fffffff 64bit pref]
+[32m[13019.597059] [0m[33mpci 0000:00:1e.0: [0mPCI bridge to [bus 02]
+[32m[13019.597065] [0m[33mpci 0000:00:1e.0: [0m  bridge window [io  0xd000-0xdfff]
+[32m[13019.597685] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xfe600000-0xfe7fffff]
+[32m[13019.598107] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xc060000000-0xc07fffffff 64bit pref]
+[32m[13019.600491] [0m[33mpci 0000:00:1f.0: [0mPCI bridge to [bus 03]
+[32m[13019.600498] [0m[33mpci 0000:00:1f.0: [0m  bridge window [io  0xc000-0xcfff]
+[32m[13019.600837] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xfe400000-0xfe5fffff]
+[32m[13019.601059] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xc040000000-0xc05fffffff 64bit pref]
+[32m[13019.607111] [0m[33mpci_bus 0000:02: [0mAllocating resources
+[32m[13019.607115] [0m[33mpci 0000:00:1e.0: [0mPCI bridge to [bus 02]
+[32m[13019.607121] [0m[33mpci 0000:00:1e.0: [0m  bridge window [io  0xd000-0xdfff]
+[32m[13019.607455] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xfe600000-0xfe7fffff]
+[32m[13019.607693] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xc060000000-0xc07fffffff 64bit pref]
+[32m[13019.608179] [0m[33mpci 0000:00:1f.0: [0mPCI bridge to [bus 03]
+[32m[13019.608186] [0m[33mpci 0000:00:1f.0: [0m  bridge window [io  0xc000-0xcfff]
+[32m[13019.608538] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xfe400000-0xfe5fffff]
+[32m[13019.608752] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xc040000000-0xc05fffffff 64bit pref]
+[32m[13019.616201] [0m[33mpci_bus 0000:03: [0mAllocating resources
+[32m[13019.616204] [0m[33mpci 0000:00:1e.0: [0mPCI bridge to [bus 02]
+[32m[13019.616223] [0m[33mpci 0000:00:1e.0: [0m  bridge window [io  0xd000-0xdfff]
+[32m[13019.616555] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xfe600000-0xfe7fffff]
+[32m[13019.616766] [0m[33mpci 0000:00:1e.0: [0m  bridge window [mem 0xc060000000-0xc07fffffff 64bit pref]
+[32m[13019.617200] [0m[33mpci 0000:00:1f.0: [0mPCI bridge to [bus 03]
+[32m[13019.617206] [0m[33mpci 0000:00:1f.0: [0m  bridge window [io  0xc000-0xcfff]
+[32m[13019.617524] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xfe400000-0xfe5fffff]
+[32m[13019.617731] [0m[33mpci 0000:00:1f.0: [0m  bridge window [mem 0xc040000000-0xc05fffffff 64bit pref]
+[32m[13019.887859] [0m[33me1000 0000:00:12.0 eth0: [0m(PCI:33MHz:32-bit) bc:24:fe:49:85:2c
+[32m[13019.887866] [0m[33me1000 0000:00:12.0 eth0: [0mIntel(R) PRO/1000 Network Connection
+[32m[13019.889504] [0m[33me1000 0000:00:12.0 ens18: [0mrenamed from eth0
+[32m[13021.950654] [0m[33me1000: [0mens18 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+[32m[52801.382979] [0m[33maudit: [0mtype=1400 audit(1741862354.310:124): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/__init__.cpython-312.pyc.134501777979184" pid=2515 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[52801.388600] [0m[33maudit: [0mtype=1400 audit(1741862354.316:125): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/__init__.cpython-312.pyc.139776847383984" pid=2516 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[52801.389990] [0m[33maudit: [0mtype=1400 audit(1741862354.317:126): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/log.cpython-312.pyc.139776852097296" pid=2516 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[52801.390077] [0m[33maudit: [0mtype=1400 audit(1741862354.317:127): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/apt.cpython-312.pyc.134501778152832" pid=2515 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[52801.397547] [0m[33maudit: [0mtype=1400 audit(1741862354.325:128): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/defaults.cpython-312.pyc.139776846272432" pid=2516 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[52801.398168] [0m[33maudit: [0mtype=1400 audit(1741862354.325:129): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/secret_manager.cpython-312.pyc.139776846272432" pid=2516 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[52801.401879] [0m[33maudit: [0mtype=1400 audit(1741862354.329:130): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/system.cpython-312.pyc.139776846274480" pid=2516 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[52801.409584] [0m[33maudit: [0mtype=1400 audit(1741862354.337:131): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/exceptions.cpython-312.pyc.139776846720432" pid=2516 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[52801.428275] [0m[33maudit: [0mtype=1400 audit(1741862354.356:132): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/event_logger.cpython-312.pyc.134501773170736" pid=2515 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[52801.429569] [0m[33maudit: [0mtype=1400 audit(1741862354.357:133): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/messages/__pycache__/__init__.cpython-312.pyc.139776845495856" pid=2516 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[111365.249722] [0m[33mkauditd_printk_skb: [0m[1m89 callbacks suppressed[0m
+[32m[111365.249724] [0m[33maudit: [0mtype=1400 audit(1741920919.185:223): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/__init__.cpython-312.pyc.128793059718960" pid=4590 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[111365.254097] [0m[33maudit: [0mtype=1400 audit(1741920919.189:224): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/apt.cpython-312.pyc.128793059892608" pid=4590 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[111365.269557] [0m[33maudit: [0mtype=1400 audit(1741920919.204:225): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/__init__.cpython-312.pyc.123588379561392" pid=4591 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[111365.269873] [0m[33maudit: [0mtype=1400 audit(1741920919.205:226): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/log.cpython-312.pyc.123588384274704" pid=4591 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[111365.275640] [0m[33maudit: [0mtype=1400 audit(1741920919.211:227): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/defaults.cpython-312.pyc.123588378449840" pid=4591 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[111365.275932] [0m[33maudit: [0mtype=1400 audit(1741920919.211:228): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/secret_manager.cpython-312.pyc.123588378449840" pid=4591 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[111365.279486] [0m[33maudit: [0mtype=1400 audit(1741920919.214:229): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/system.cpython-312.pyc.123588378451888" pid=4591 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[111365.284463] [0m[33maudit: [0mtype=1400 audit(1741920919.219:230): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/event_logger.cpython-312.pyc.128793054910512" pid=4590 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[111365.285742] [0m[33maudit: [0mtype=1400 audit(1741920919.221:231): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/yaml.cpython-312.pyc.128793044175024" pid=4590 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[111365.286865] [0m[33maudit: [0mtype=1400 audit(1741920919.222:232): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/exceptions.cpython-312.pyc.123588378897840" pid=4591 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[197887.970547] [0m[33mkauditd_printk_skb: [0m[1m89 callbacks suppressed[0m
+[32m[197887.970550] [0m[33maudit: [0mtype=1400 audit(1742007443.401:322): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/__init__.cpython-312.pyc.123292662036272" pid=6888 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[197887.978546] [0m[33maudit: [0mtype=1400 audit(1742007443.408:323): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/apt.cpython-312.pyc.123292662209920" pid=6888 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[197887.985134] [0m[33maudit: [0mtype=1400 audit(1742007443.416:324): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/__init__.cpython-312.pyc.129844520570288" pid=6889 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[197887.986610] [0m[33maudit: [0mtype=1400 audit(1742007443.418:325): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/log.cpython-312.pyc.129844522137872" pid=6889 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[197887.993065] [0m[33maudit: [0mtype=1400 audit(1742007443.424:326): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/defaults.cpython-312.pyc.129844519458736" pid=6889 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[197887.993367] [0m[33maudit: [0mtype=1400 audit(1742007443.424:327): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/secret_manager.cpython-312.pyc.129844519458736" pid=6889 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[197887.996979] [0m[33maudit: [0mtype=1400 audit(1742007443.428:328): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/system.cpython-312.pyc.129844519460784" pid=6889 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[197888.004406] [0m[33maudit: [0mtype=1400 audit(1742007443.435:329): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/exceptions.cpython-312.pyc.129844519890352" pid=6889 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[197888.009067] [0m[33maudit: [0mtype=1400 audit(1742007443.440:330): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/messages/__pycache__/__init__.cpython-312.pyc.129844518682160" pid=6889 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[197888.009878] [0m[33maudit: [0mtype=1400 audit(1742007443.441:331): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/messages/__pycache__/urls.cpython-312.pyc.129844518682160" pid=6889 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[287118.678281] [0m[33mkauditd_printk_skb: [0m[1m89 callbacks suppressed[0m
+[32m[287118.678283] [0m[33maudit: [0mtype=1400 audit(1742096675.669:421): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/__init__.cpython-312.pyc.128179940538160" pid=9291 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[287118.682465] [0m[33maudit: [0mtype=1400 audit(1742096675.673:422): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/apt.cpython-312.pyc.128179940711808" pid=9291 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[287118.687955] [0m[33maudit: [0mtype=1400 audit(1742096675.679:423): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/__init__.cpython-312.pyc.128652358733232" pid=9292 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[287118.688753] [0m[33maudit: [0mtype=1400 audit(1742096675.679:424): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/log.cpython-312.pyc.128652360268048" pid=9292 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[287118.694365] [0m[33maudit: [0mtype=1400 audit(1742096675.685:425): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/defaults.cpython-312.pyc.128652357638064" pid=9292 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[287118.694661] [0m[33maudit: [0mtype=1400 audit(1742096675.685:426): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/secret_manager.cpython-312.pyc.128652357638064" pid=9292 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[287118.698101] [0m[33maudit: [0mtype=1400 audit(1742096675.689:427): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/system.cpython-312.pyc.128652357640112" pid=9292 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[287118.705630] [0m[33maudit: [0mtype=1400 audit(1742096675.696:428): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/exceptions.cpython-312.pyc.128652358004144" pid=9292 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[287118.710202] [0m[33maudit: [0mtype=1400 audit(1742096675.701:429): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/messages/__pycache__/__init__.cpython-312.pyc.128652356877872" pid=9292 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[287118.711006] [0m[33maudit: [0mtype=1400 audit(1742096675.702:430): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/messages/__pycache__/urls.cpython-312.pyc.128652356877872" pid=9292 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[360359.446713] [0m[33mkauditd_printk_skb: [0m[1m89 callbacks suppressed[0m
+[32m[360359.446715] [0m[33maudit: [0mtype=1400 audit(1742169917.720:520): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/__init__.cpython-312.pyc.137832652650288" pid=11296 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[360359.451567] [0m[33maudit: [0mtype=1400 audit(1742169917.725:521): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/apt.cpython-312.pyc.137832652823936" pid=11296 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[360359.459257] [0m[33maudit: [0mtype=1400 audit(1742169917.733:522): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/__init__.cpython-312.pyc.133351859424688" pid=11297 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[360359.460161] [0m[33maudit: [0mtype=1400 audit(1742169917.734:523): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/log.cpython-312.pyc.133351864121616" pid=11297 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[360359.465841] [0m[33maudit: [0mtype=1400 audit(1742169917.740:524): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/defaults.cpython-312.pyc.133351858313136" pid=11297 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[360359.466136] [0m[33maudit: [0mtype=1400 audit(1742169917.740:525): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/secret_manager.cpython-312.pyc.133351858313136" pid=11297 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[360359.469667] [0m[33maudit: [0mtype=1400 audit(1742169917.743:526): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/system.cpython-312.pyc.133351858315184" pid=11297 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[360359.476867] [0m[33maudit: [0mtype=1400 audit(1742169917.751:527): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/exceptions.cpython-312.pyc.133351858777520" pid=11297 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[360359.481523] [0m[33maudit: [0mtype=1400 audit(1742169917.755:528): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/messages/__pycache__/__init__.cpython-312.pyc.133351857536560" pid=11297 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[360359.481572] [0m[33maudit: [0mtype=1400 audit(1742169917.755:529): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/event_logger.cpython-312.pyc.137832651020336" pid=11296 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[465507.598305] [0m[33mkauditd_printk_skb: [0m[1m89 callbacks suppressed[0m
+[32m[465507.598308] [0m[33maudit: [0mtype=1400 audit(1742275067.707:619): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/__init__.cpython-312.pyc.132809598613296" pid=13949 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[465507.602804] [0m[33maudit: [0mtype=1400 audit(1742275067.712:620): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/apt.cpython-312.pyc.132809598786944" pid=13949 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[465507.614405] [0m[33maudit: [0mtype=1400 audit(1742275067.724:621): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/__init__.cpython-312.pyc.129959993953712" pid=13950 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[465507.615230] [0m[33maudit: [0mtype=1400 audit(1742275067.724:622): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/log.cpython-312.pyc.129959995504912" pid=13950 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[465507.620867] [0m[33maudit: [0mtype=1400 audit(1742275067.730:623): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/defaults.cpython-312.pyc.129959992842160" pid=13950 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[465507.621156] [0m[33maudit: [0mtype=1400 audit(1742275067.730:624): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/secret_manager.cpython-312.pyc.129959992842160" pid=13950 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[465507.624626] [0m[33maudit: [0mtype=1400 audit(1742275067.734:625): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/system.cpython-312.pyc.129959992844208" pid=13950 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[465507.632169] [0m[33maudit: [0mtype=1400 audit(1742275067.741:626): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/exceptions.cpython-312.pyc.129959993290160" pid=13950 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[465507.637164] [0m[33maudit: [0mtype=1400 audit(1742275067.746:627): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_apt_news" name="/usr/lib/python3/dist-packages/uaclient/__pycache__/event_logger.cpython-312.pyc.132809593804848" pid=13949 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[32m[465507.637960] [0m[33maudit: [0mtype=1400 audit(1742275067.747:628): apparmor="DENIED" operation="mknod" class="file" profile="ubuntu_pro_esm_cache" name="/usr/lib/python3/dist-packages/uaclient/messages/__pycache__/__init__.cpython-312.pyc.129959992065584" pid=13950 comm="python3" requested_mask="c" denied_mask="c" fsuid=0 ouid=0
+[?2004h]0;user1@eltex-practice2-pg1-v8: /user1@eltex-practice2-pg1-v8:/$ sudp[K[K[K[Kexit
+[?2004lexit
+[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# sudo nano /usr/local/bin/dmesh[Kg)su[K[K[K[K_[Kg_suid.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;43H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                       /usr/local/bin/dmesg_suid.sh                                [1;96H(B[m[26d(B[0;7m^G(B[m Help[26;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[26;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location[27d(B[0;7m^X(B[m Exit[27;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[27;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;67H(B[0;7m*[25d(B[m[K[1;96H[2d[36m#!/bin/bash[3d[39m(B[m/bin/dmesg[?12l[?25h[?25l[26;17H        (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[65G        (B[0;7mM-B(B[m Backup File[K[27;2H(B[0;7mC(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format    [49G(B[0;7mM-P(B[m Prepend             (B[0;7m^T(B[m Browse[K[25d(B[0;7mFile Name to Write: /usr/local/bin/dmesg_suid.sh                                                 [25;49H(B[m[?12l[?25h[?25l[25;41H[1K (B[0;7m[ Writing... ](B[m[K[1;67H(B[0;7m [96G(B[m[25;41H(B[0;7m[ Wrote 2 lines ](B[m[26;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut    [65G(B[0;7m^T(B[m Execute      (B[0;7m^C(B[m Location[27;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste        (B[0;7m^J(B[m Justify      (B[0;7m^/(B[m Go To Line[?12l[?25h[3;11H[?25l[25d[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# sudo chmod 755 /usr/local/bin//d[K[Kdmesh/[K[Kg_suid/sh[K[K[K.sh
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# chown root:user2 /usr/local/bin.[K/d,e[K[K,e[K[Kmesh[Kg_suid.sh
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# chmod u+s /usr/local/bin/dmesg_suid.sh
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# ls-ls[K[K[K -l /s[Kusr/local/bin/dmesh[Kg_suid.sh
+[?2004l-rwsr-xr-x 1 root user2 23 Mar 19 12:59 [0m[37;41m/usr/local/bin/dmesg_suid.sh[0m
+[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# ls -l /usr/local/bin/dmesg_suid.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@chmod u+s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7@own root:user2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Psudo chmod 755[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pnano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C user1[Kdo visudo[3P user1do nano /usr/local/bin/dmesg_suid.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C user1[Kdo visudo[3P user1do sysctl -w kernel.dmesg_restrict=1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C user1[Kdo visudo[3P user1do nano /usr/local/bin/dmesg_suid.sh[5@chmod 755[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@chown root:user2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pmod u+s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[7mecho "kernel.dmesg_restrict=0" | sudo tee -a /etc/sysctl.conf[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "kernel.dmesg_restrict=0" | sudo tee -a /etc/sysctl.conf
+[?2004lkernel.dmesg_restrict=0
+[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# ыг ыг[K[K[K[K[Ksu user2
+[?2004l[?2004h]0;user2@eltex-practice2-pg1-v8: /user2@eltex-practice2-pg1-v8:/$ /usr/local.[K/bin/dmesh[Kg_siu[K[Kiud.sh[K[K[K[K[K[Kuid.sh
+[?2004ldmesg: read kernel buffer failed: Operation not permitted
+[?2004h]0;user2@eltex-practice2-pg1-v8: /user2@eltex-practice2-pg1-v8:/$ /usr/local/bin/dmesg_suid.shexit[K[2Plsexit/usr/local/bin/dmesg_suid.sh[K[7mecho "kernel.dmesg_restrict=0" | sudo tee -a /etc/sysctl.conf[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "kernel.dmesg_restrict=0" | sudo tee -a /etc/sysctl.conf
+[?2004l[sudo] password for user2: 
+user2 is not in the sudoers file.
+[?2004h]0;user2@eltex-practice2-pg1-v8: /user2@eltex-practice2-pg1-v8:/$ echo "kernel.dmesg_restrict=0" | sudo tee -a /etc/sysctl.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33P/usr/local/bin/dmesg_suid.shexit[K/usr/local/bin/dmesg_suid.shecho "kernel.dmesg_restrict=0" | sudo tee -a /etc/sysctl.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kexit
+[?2004lexit
+[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# su user2echo "kernel.dmesg_restrict=0" | sudo tee -a /etc/sysctl.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Pls -l /usr/local/bin/dmesg_suid.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@chmod u+s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7@own root:user2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Psudo chmod 755[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pnano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C user1[Kdo visudo[3P user1do sysctl -w kernel.dmesg_restrict=1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Ksu user1[3Pcd ..sudo sysctl -w kernel.dmesg_restrict=1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C user1[Kdo visudo[3P user1do nano /usr/local/bin/dmesg_suid.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;42H(B[0;7m[ Reading... ](B[m[25;41H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 7.2                       /usr/local/bin/dmesg_suid.sh                                [1;96H(B[m[26d(B[0;7m^G(B[m Help[26;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[26;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location[27d(B[0;7m^X(B[m Exit[27;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[27;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d[39m(B[m/bin/dmesg[A[?12l[?25h[?25l[26;17H        (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[65G        (B[0;7mM-B(B[m Backup File[K[27;2H(B[0;7mC(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format    [49G(B[0;7mM-P(B[m Prepend             (B[0;7m^T(B[m Browse[K[25d(B[0;7mFile Name to Write: /usr/local/bin/dmesg_suid.sh                                                 [25;49H(B[m[?12l[?25h[?25l[25;41H[1K (B[0;7m[ Writing... ](B[m[K[1;96H[25;41H(B[0;7m[ Wrote 2 lines ](B[m[26;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut    [65G(B[0;7m^T(B[m Execute      (B[0;7m^C(B[m Location[27;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste        (B[0;7m^J(B[m Justify      (B[0;7m^/(B[m Go To Line[?12l[?25h[2d[?25l[25d[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# [7msudo chmod 755 /usr/local/bin/dmesg_suid.sh[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chmod 755 /usr/local/bin/dmesg_suid.sh
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# [7mchown root:user2 /usr/local/bin/dmesg_suid.sh[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchown root:user2 /usr/local/bin/dmesg_suid.sh
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# [7mchmod u+s /usr/local/bin/dmesg_suid.sh[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod u+s /usr/local/bin/dmesg_suid.sh
+[?2004l[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# [7mls -l /usr/local/bin/dmesg_suid.sh[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l /usr/local/bin/dmesg_suid.sh
+[?2004l-rwsr-xr-x 1 root user2 23 Mar 19 13:11 [0m[37;41m/usr/local/bin/dmesg_suid.sh[0m
+[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# [7mecho "kernel.dmesg_restrict=0" | sudo tee -a /etc/sysctl.conf[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "kernel.dmesg_restrict=0" | sudo tee -a /etc/sysctl.conf
+[?2004lkernel.dmesg_restrict=0
+[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# su user2
+[?2004l[?2004h]0;user2@eltex-practice2-pg1-v8: /user2@eltex-practice2-pg1-v8:/$ .[K/usr/[K[K[K[K[Kexit[K[K[K[K/[Kcd ..
+[?2004l[?2004h]0;user2@eltex-practice2-pg1-v8: /user2@eltex-practice2-pg1-v8:/$ cd r[K/root
+[?2004l[?2004h]0;user2@eltex-practice2-pg1-v8: /rootuser2@eltex-practice2-pg1-v8:/root$ /use[Kr/local/bin/dmesg_suid.sh
+[?2004ldmesg: read kernel buffer failed: Operation not permitted
+[?2004h]0;user2@eltex-practice2-pg1-v8: /rootuser2@eltex-practice2-pg1-v8:/root$ exit
+[?2004lexit
+[?2004h]0;root@eltex-practice2-pg1-v8: /root@eltex-practice2-pg1-v8:/# su u

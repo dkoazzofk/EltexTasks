@@ -1,0 +1,21 @@
+echo $HISTFILE
+echo $HISTFILESIZE
+ls -a ~ | grep "^\."
+export HISTTIMEFORMAT='%Y-%m-%d %H:%M:%S '
+date
+history | tail -5
+cat ~/.bash_history |tail -5
+export PROMPT_COMMAND='history -a'
+export DATE=$(date '+%Y-%m-%d')
+echo $DATE
+export TIME=$(date '+%H:%M:%S')
+echo $TIME
+export DATE_TIME="$DATE $TIME"
+exho $DATE_TIME
+cd /bin
+ls -f | grep '[0-9]' | head -5
+cd /sbin
+ls -f | grep '[0-9]' | head -5
+PS1='${USER}@${HOSTNAME}-$(date "+%H:%M:%S")> '
+source ~/.bashrc
+for month in $(seq -f "%02g" 1 12); do mkdir -p ~/$(date +%Y)-$month; done
